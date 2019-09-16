@@ -46,14 +46,10 @@ const IndexPage = () => (
     <div className={"container"}>
       <div className={"features"}>
         <div className={"feature__item"}>
-          <div className={"row"}>
+          <div className={"row row_card"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img
-                  alt={"blob2"}
-                  src={blob2}
-                  style={{ position: "absolute", zIndex: -1 }}
-                />
+                <img alt={"blob2"} src={blob2} className={"feature_blob"} />
                 <img alt={"hodler1"} src={hodler1} />
               </div>
             </div>
@@ -72,31 +68,25 @@ const IndexPage = () => (
         </div>
 
         <div className={"feature__item"}>
-          <div className={"row"}>
+          <div className={"row row_card"}>
             <div className={"col-6"}>
-              <div className={"feature__content"}>
+              <div className={"feature__content"} style={{ paddingLeft: "7%" }}>
                 <h2>Complete Transparency</h2>
                 <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Put in a hook in this sentence, concise
                   <br />
-                  uspendisse eu nisi elit. Maecenas leo diam, placerat ut tortor
-                  eu, sodales suscipit nisi.
+                  Write a slightly longer sentence here as a short description
+                  to follow up on the hook.
+                  <br />
+                  End it with a punchline or link if necessary.
                 </p>
               </div>
-              <img
-                alt={"blob1"}
-                src={blob1}
-                style={{ position: "absolute", zIndex: -1 }}
-              />
+              {/* <img alt={"blob1"} src={blob1} /> */}
             </div>
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img
-                  alt="blob2"
-                  src={blob2}
-                  style={{ position: "absolute", zIndex: -1 }}
-                />
+                <img alt="blob2" src={blob2} className={"feature_blob"} />
                 <img alt={"hw2"} src={hodler2} />
               </div>
             </div>
