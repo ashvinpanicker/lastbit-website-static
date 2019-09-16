@@ -8,6 +8,8 @@ import informationImage from "../../static/images/Information-document.svg"
 import eventImage from "../../static/images/Event-managment.svg"
 import ProductivityImage from "../../static/images/Increase-Productivity.svg"
 import happinessImage from "../../static/images/Make-happiness.svg"
+import ContactCard from "../components/contactcard"
+import logo from "../../static/images/logo.png"
 
 const AboutPage = () => (
   <Layout>
@@ -88,6 +90,36 @@ const AboutPage = () => (
               <p>It's all about the memes folks</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div className={"showcase"}>
+      <h5 style={{ fontSize: "24px", color: "#00204a" }}>
+        We are a team of developers and friends who studied together and now
+        live and work together
+      </h5>
+      <div className={"row container"} style={{ padding: 40 }}>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Sales Magnet"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Jesus harbringer"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Bartender"}
+          />
         </div>
       </div>
     </div>

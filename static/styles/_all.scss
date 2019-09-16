@@ -546,4 +546,20 @@ body {
       cursor: pointer;
     }
   }
+
+  .contactCard {
+    .contactPic {
+      text-align: center;
+
+      .contactImage {
+        max-width: 150px;
+      }
+    }
+    .contactData {
+      .contact_title {
+      }
+      .contact_subtitle {
+      }
+    }
+  }
 }
