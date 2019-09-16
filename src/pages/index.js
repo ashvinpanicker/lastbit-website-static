@@ -6,10 +6,13 @@ import Subscribe from "../components/subscribe"
 import hodler1 from "../../static/images/Hodler_1.34.png"
 import hodler2 from "../../static/images/Hodler_1.37.png"
 import blob2 from "../../static/images/blob2.svg"
-import blob1 from "../../static/images/blob-shape.svg"
+// import blob1 from "../../static/images/blob-shape.svg"
 import IconCard from "../components/iconcard"
 import mobilepay from "../../static/images/mobile-pay.png"
+import apphodler from "../../static/images/app-hodler.png"
 import lightning from "../../static/images/lightning.png"
+import google from "../../static/images/google.png"
+import apple from "../../static/images/apple.png"
 import easy from "../../static/images/easy-icon-2.png"
 
 const IndexPage = () => (
@@ -125,6 +128,43 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+
+    <div className={"showcase"}>
+      <h4 className={"showcase_title"}>
+        Download Testnet Version for iOS and Android
+      </h4>
+      <p className={"showcase_desc"}>
+        Constantly updated, fully functional bitcoin and lightning wallet (Only
+        testnet BTC)
+      </p>
+      <div className={"row container"} style={{ padding: 40 }}>
+        <div className={"col-6"}>
+          <img
+            src={google}
+            alt={"playstore"}
+            className={"img-responsive hover-shadow"}
+            style={{ maxWidth: "400px" }}
+          />
+        </div>
+        <div className={"col-6"}>
+          <img
+            src={apple}
+            alt={"appstore"}
+            className={"img-responsive hover-shadow"}
+            style={{ maxWidth: "400px" }}
+          />
+        </div>
+      </div>
+      <div style={{ textAlign: "center" }}>
+        <img
+          src={apphodler}
+          alt={"app_screens"}
+          className={"img-responsive"}
+          style={{ width: "80%" }}
+        />
+      </div>
+    </div>
+
     <div id="subscribe" className={"call-to-action"}>
       <div className={"container"}>
         <div className={"call-to-action__content"}>
