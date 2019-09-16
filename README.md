@@ -1,7 +1,6 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/lastbit/website-static/master/static/images/logo.png" width="60" />
+  <a href="https://lastbit.io">
+    <img src="static/images/logo.png?raw=true" />
   </a>
 </p>
 <h1 align="center">
