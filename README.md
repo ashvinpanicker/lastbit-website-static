@@ -16,8 +16,13 @@ A starter static website with plugins based on [Gatsby](https://www.gatsbyjs.org
    ```shell
    npm install -g gatsby-cli
    ```
+2. **Clone this repository**
 
-2. **Start the site in `develop` mode.**
+```
+git clone https://github.com/lastbit-io/website-static
+```
+
+3. **Start the site in `develop` mode.**
 
    Next, move into your new site’s directory and start it up:
 
@@ -26,11 +31,9 @@ A starter static website with plugins based on [Gatsby](https://www.gatsbyjs.org
    gatsby develop
    ```
 
-3. **Open the source code and start editing!**
+4. **Open the source code and start editing!**
 
    Your site is now running at `http://localhost:8000`. Open the `website-static` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes, and the browser will update in real time!
-
-At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
 
 ## 🧐 Features
 
@@ -38,3 +41,7 @@ At this point, you’ve got a fully functional Gatsby website. For additional in
 - Support SCSS
 - Web font loader (Google and custom font)
 - Mailchimp subscription component
+
+## Refs
+[Gatsby plugins](https://gatsbyjs.org/plugins/)
+[The official gatsby tutorial](https://gatsbyjs.org/tutorial/).
