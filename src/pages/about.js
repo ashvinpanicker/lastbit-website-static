@@ -99,7 +99,7 @@ const AboutPage = () => (
         We are a team of developers and friends who studied together and now
         live and work together
       </h5>
-      <div className={"row container"} style={{ padding: 40 }}>
+      <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
             src={logo}
@@ -111,7 +111,30 @@ const AboutPage = () => (
           <ContactCard
             src={logo}
             title={"Pay with Bitcoin"}
-            subtitle={"Jesus harbringer"}
+            subtitle={"Jesus worshipper"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Bartender"}
+          />
+        </div>
+      </div>
+      <div className={"row container"} style={{ paddingTop: 40 }}>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Sales Magnet"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"Pay with Bitcoin"}
+            subtitle={"Jesus worshipper"}
           />
         </div>
         <div className={"col-4"}>
