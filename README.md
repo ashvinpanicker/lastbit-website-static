@@ -18,9 +18,9 @@ A starter static website with plugins based on [Gatsby](https://www.gatsbyjs.org
    ```
 2. **Clone this repository**
 
-```
-git clone https://github.com/lastbit-io/website-static
-```
+    ```
+    git clone https://github.com/lastbit-io/website-static
+    ```
 
 3. **Start the site in `develop` mode.**
 
@@ -28,6 +28,7 @@ git clone https://github.com/lastbit-io/website-static
 
    ```sh
    cd website-static/
+   npm install
    gatsby develop
    ```
 
