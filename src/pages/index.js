@@ -145,7 +145,7 @@ const IndexPage = () => (
       />
     </div>
 
-    <div className={"container"}>
+    <div className={"container row"}>
       <div className={"col-6"}>
         <div className="device device-iphone-x">
           <div className="device-frame">
@@ -158,7 +158,57 @@ const IndexPage = () => (
           <div className="device-power"></div>
         </div>
       </div>
-      <div className={"col-6"}></div>
+      <div className={"col-6"}>
+        <div className={"features"}>
+          <div className={"feature__item"}>
+            <div className={"row row_card"}>
+              <div
+                className={"feature__content"}
+                style={{ padding: "12% 0% 4% 6%" }}
+              >
+                <h2>Bitcoin</h2>
+                <p className={"subtitle"}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
+                  tortor eu, sodales suscipit nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className={"feature__item"}>
+            <div className={"row row_card"}>
+              <div
+                className={"feature__content"}
+                style={{ padding: "12% 0% 4% 6%" }}
+              >
+                <h2>Lightning</h2>
+                <p className={"subtitle"}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
+                  tortor eu, sodales suscipit nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className={"feature__item"}>
+            <div className={"row row_card"}>
+              <div
+                className={"feature__content"}
+                style={{ padding: "12% 0% 4% 6%" }}
+              >
+                <h2>Virtual Card</h2>
+                <p className={"subtitle"}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
+                  tortor eu, sodales suscipit nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div className={"showcase"}>
