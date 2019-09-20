@@ -15,7 +15,7 @@ export default class IconCard extends Component {
     return (
       <div className={"contactCard"}>
         <div className={"contactPic"}>
-          <img src={src} className="contactImage" />
+          <img src={src} className="contactImage" alt={title} />
         </div>
         <div className={"contactData"}>
           <h4 className={"contact_title"}>{title}</h4>

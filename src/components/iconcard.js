@@ -13,7 +13,7 @@ export default class IconCard extends Component {
     return (
       <div>
         <div className="cardCircle">
-          <img src={src} className="cardImage" />
+          <img src={src} className="cardImage" alt="icon" />
         </div>
         <div className="card">
           <h4 className="title">{title}</h4>

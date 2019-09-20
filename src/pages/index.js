@@ -16,6 +16,7 @@ import apple from "../../static/images/apple.png"
 import landing from "../../static/images/landing.png"
 import vcards from "../../static/images/vcards.png"
 import easy from "../../static/images/easy-icon-2.png"
+import video from "../../static/video/bg-01.mp4"
 
 const IndexPage = () => (
   <Layout>
@@ -144,9 +145,22 @@ const IndexPage = () => (
       />
     </div>
 
-    <div>
-      <p>Phone scrolling thing comes here</p>
+    <div className={"container"}>
+      <div className={"col-6"}>
+        <div className="device device-iphone-x">
+          <div className="device-frame">
+            <img className="device-content" src={apphodler} alt={"img"} />
+          </div>
+          <div className="device-stripe"></div>
+          <div className="device-header"></div>
+          <div className="device-sensors"></div>
+          <div className="device-btns"></div>
+          <div className="device-power"></div>
+        </div>
+      </div>
+      <div className={"col-6"}></div>
     </div>
+
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>
         Download Testnet Version for iOS and Android
@@ -173,14 +187,31 @@ const IndexPage = () => (
           />
         </div>
       </div>
-      <div style={{ textAlign: "center" }}>
+
+      {/* Responsive iphone https://codepen.io/dani3lsz/pen/MEZjeo?editors=1100 */}
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <div className="device device-iphone-x">
+          <div className="device-frame">
+            <video className="device-content" muted="muted" autoplay="" loop="">
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
+          <div className="device-stripe"></div>
+          <div className="device-header"></div>
+          <div className="device-sensors"></div>
+          <div className="device-btns"></div>
+          <div className="device-power"></div>
+        </div>
+      </div>
+
+      {/* <div style={{ textAlign: "center" }}>
         <img
           src={apphodler}
           alt={"app_screens"}
           className={"img-responsive"}
           style={{ width: "80%" }}
         />
-      </div>
+      </div> */}
     </div>
 
     <div id="subscribe" className={"call-to-action"}>
