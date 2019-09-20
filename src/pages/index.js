@@ -13,6 +13,8 @@ import apphodler from "../../static/images/app-hodler.png"
 import lightning from "../../static/images/lightning.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
+import landing from "../../static/images/landing.png"
+import vcards from "../../static/images/vcards.png"
 import easy from "../../static/images/easy-icon-2.png"
 
 const IndexPage = () => (
@@ -20,18 +22,20 @@ const IndexPage = () => (
     <SEO title="Store and Spend Bitcoin" />
 
     <div className={"page-header home"}>
-      <div className={"container landing"}>
-        <h1>
-          Store and Spend <span style={{ color: "#ff9900" }}>Bitcoin</span>
-        </h1>
-        <p className={"lightText"}>
-          Use crypto as a currency
-          <br />
-          The way it was meant to be used
-          <br />
-          Even if the merchant doesn't accept it.
-        </p>
-        <div className="video">
+      <div className={"container row landing"}>
+        <div className={"col-6"}>
+          <h1>
+            Store and Spend <span style={{ color: "#ff9900" }}>Bitcoin</span>
+          </h1>
+          <p className={"lightText"}>
+            Use crypto as a currency
+            <br />
+            The way it was meant to be used
+            <br />
+            Even if the merchant doesn't accept it.
+          </p>
+        </div>
+        {/* <div className="video">
           <iframe
             className="resp-iframe"
             src={"https://www.youtube.com/embed/Tn7wvu8R4Wk"}
@@ -42,6 +46,9 @@ const IndexPage = () => (
             mozallowfullscreen="true"
             allowFullScreen
           />
+        </div> */}
+        <div className={"col-6"}>
+          <img src={landing} alt="graphic" className={"landing_img"} />
         </div>
       </div>
     </div>
@@ -129,6 +136,17 @@ const IndexPage = () => (
       </div>
     </div>
 
+    <div>
+      <img
+        src={vcards}
+        alt="vcards"
+        style={{ maxWidth: "-webkit-fill-available" }}
+      />
+    </div>
+
+    <div>
+      <p>Phone scrolling thing comes here</p>
+    </div>
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>
         Download Testnet Version for iOS and Android
