@@ -10,6 +10,11 @@ import ProductivityImage from "../../static/images/Increase-Productivity.svg"
 import happinessImage from "../../static/images/Make-happiness.svg"
 import ContactCard from "../components/contactcard"
 import logo from "../../static/images/logo.png"
+import pb from "../../static/images/PB@3x.png"
+import ash from "../../static/images/Ashvin@3x.png"
+import pratham from "../../static/images/Pratham@3x.png"
+import kristo from "../../static/images/Kristo@3x.png"
+import kaili from "../../static/images/Kaili@3x.png"
 
 const AboutPage = () => (
   <Layout>
@@ -102,21 +107,21 @@ const AboutPage = () => (
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
-            src={logo}
+            src={pb}
             title={"Pay with Bitcoin"}
             subtitle={"Sales Magnet"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
-            src={logo}
+            src={ash}
             title={"Pay with Bitcoin"}
             subtitle={"Jesus worshipper"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
-            src={logo}
+            src={pratham}
             title={"Pay with Bitcoin"}
             subtitle={"Bartender"}
           />
@@ -125,24 +130,20 @@ const AboutPage = () => (
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
-            src={logo}
+            src={kristo}
             title={"Pay with Bitcoin"}
             subtitle={"Sales Magnet"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
-            src={logo}
+            src={kaili}
             title={"Pay with Bitcoin"}
             subtitle={"Jesus worshipper"}
           />
         </div>
         <div className={"col-4"}>
-          <ContactCard
-            src={logo}
-            title={"Pay with Bitcoin"}
-            subtitle={"Bartender"}
-          />
+          <ContactCard src={logo} title={"You"} subtitle={"Work With Us!"} />
         </div>
       </div>
     </div>
