@@ -108,22 +108,25 @@ const AboutPage = () => (
         <div className={"col-4"}>
           <ContactCard
             src={pb}
-            title={"Pay with Bitcoin"}
-            subtitle={"Sales Magnet"}
+            title={"Prashanth B"}
+            subtitle={"Founder/CEO"}
+            linkedIn={"https://www.linkedin.com/in/pbio"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
             src={ash}
-            title={"Pay with Bitcoin"}
-            subtitle={"Jesus worshipper"}
+            title={"Ashvin Panicker"}
+            subtitle={"Co-Founder"}
+            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
             src={pratham}
-            title={"Pay with Bitcoin"}
-            subtitle={"Bartender"}
+            title={"Pratham Mehta"}
+            subtitle={"App Developer"}
+            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
           />
         </div>
       </div>
@@ -131,15 +134,17 @@ const AboutPage = () => (
         <div className={"col-4"}>
           <ContactCard
             src={kristo}
-            title={"Pay with Bitcoin"}
-            subtitle={"Sales Magnet"}
+            title={"Kristo Magi"}
+            subtitle={"Advisor"}
+            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
             src={kaili}
-            title={"Pay with Bitcoin"}
-            subtitle={"Jesus worshipper"}
+            title={"Kaili Kleemier"}
+            subtitle={"Advisor"}
+            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
           />
         </div>
         <div className={"col-4"}>

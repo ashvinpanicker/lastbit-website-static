@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
+import iconLinkedin from "../../static/images/icon-linkedin.svg"
 
 export default class IconCard extends Component {
   static propTypes = {
@@ -16,6 +17,17 @@ export default class IconCard extends Component {
       <div className={"contactCard"}>
         <div className={"contactPic"}>
           <img src={src} className="contactImage" alt={title} />
+          {linkedIn && (
+            <div className={"contactLinkedin"}>
+              <a href={linkedIn} target={"_blank"} title={title}>
+                <img
+                  alt={"LinkedIn"}
+                  src={iconLinkedin}
+                  style={{ maxHeight: "20px", padding: 8 }}
+                />
+              </a>
+            </div>
+          )}
         </div>
         <div className={"contactData"}>
           <h4 className={"contact_title"}>{title}</h4>

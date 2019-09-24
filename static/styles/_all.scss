@@ -301,7 +301,7 @@ body {
 
       button:hover {
         background-color: #1b6d06;
-        border-right-style: inset;
+        cursor: pointer;
       }
     }
 
@@ -552,7 +552,21 @@ body {
       text-align: center;
 
       .contactImage {
-        max-width: 150px;
+        max-width: 200px;
+      }
+
+      .contactLinkedin {
+        position: relative;
+        z-index: 2;
+        background: white;
+        margin: 0 auto;
+        height: 40px;
+        width: 40px;
+        margin-top: -55px;
+        margin-bottom: 35px;
+        border-radius: 50%;
+        visibility: collapse;
+        cursor: pointer;
       }
     }
     .contactData {
@@ -560,6 +574,13 @@ body {
       }
       .contact_subtitle {
       }
+    }
+  }
+  .contactCard:hover {
+    .contactLinkedin {
+      visibility: visible;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
     }
   }
 }
