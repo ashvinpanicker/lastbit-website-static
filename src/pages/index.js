@@ -14,7 +14,7 @@ import lightning from "../../static/images/lightning.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
 import landing from "../../static/images/landing.png"
-import vcards from "../../static/images/vcards.png"
+import vcards from "../../static/images/vcards.svg"
 import easy from "../../static/images/easy-icon-2.png"
 import video from "../../static/video/bg-01.mp4"
 
@@ -137,11 +137,17 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div>
+    <div style={{ textAlign: "center" }}>
+      <h2>How Virtual Cards Work</h2>
       <img
         src={vcards}
         alt="vcards"
-        style={{ maxWidth: "-webkit-fill-available" }}
+        style={{
+          maxWidth: "-webkit-fill-available",
+          paddingRight: 20,
+          paddingLeft: 20,
+          marginBottom: 40
+        }}
       />
     </div>
 

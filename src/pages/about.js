@@ -10,6 +10,7 @@ import ProductivityImage from "../../static/images/Increase-Productivity.svg"
 import happinessImage from "../../static/images/Make-happiness.svg"
 import ContactCard from "../components/contactcard"
 import logo from "../../static/images/logo.png"
+import roadmap from "../../static/images/timeline.svg"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
@@ -150,6 +151,20 @@ const AboutPage = () => (
         <div className={"col-4"}>
           <ContactCard src={logo} title={"You"} subtitle={"Work With Us!"} />
         </div>
+      </div>
+      <div style={{ textAlign: "center", marginTop: 50 }}>
+        <h2>Roadmap</h2>
+        <img
+          src={roadmap}
+          alt="roadmap"
+          style={{
+            maxWidth: "-webkit-fill-available",
+            paddingRight: 20,
+            paddingLeft: 20,
+            marginTop: 40,
+            marginBottom: 40,
+          }}
+        />
       </div>
     </div>
   </Layout>
