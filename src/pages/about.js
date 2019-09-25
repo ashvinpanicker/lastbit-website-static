@@ -16,6 +16,14 @@ import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
 import kristo from "../../static/images/Kristo@3x.png"
 import kaili from "../../static/images/Kaili@3x.png"
+import event1 from "../../static/images/Event1.svg"
+import event2 from "../../static/images/Event2.svg"
+import logo1 from "../../static/images/Logo1.svg"
+import logo2 from "../../static/images/Logo2.svg"
+import logo3 from "../../static/images/Logo3.svg"
+import logo4 from "../../static/images/Logo4.svg"
+import logo5 from "../../static/images/Logo5.svg"
+import logo6 from "../../static/images/Logo6.svg"
 
 const AboutPage = () => (
   <Layout>
@@ -152,6 +160,7 @@ const AboutPage = () => (
           <ContactCard src={logo} title={"You"} subtitle={"Work With Us!"} />
         </div>
       </div>
+
       <div style={{ textAlign: "center", marginTop: 50 }}>
         <h2>Roadmap</h2>
         <img
@@ -165,6 +174,59 @@ const AboutPage = () => (
             marginBottom: 40,
           }}
         />
+      </div>
+    </div>
+
+    <div className={"container"} style={{ textAlign: "center", marginTop: 50 }}>
+      <h2>Events</h2>
+      <div className={"row"}>
+        <div className={"col-6"}>
+          <div className="card">
+            <img src={event1} className={"event_logo"} alt={"bold_awards"} />
+            <p className="desc">
+              Nominated for Young Acheiver at H-Farm's Bold Awards 2019 in
+              Venice
+            </p>
+          </div>
+        </div>
+        <div className={"col-6"}>
+          <div className="card">
+            <img
+              src={event2}
+              className={"event_logo"}
+              alt={"innoenergy_powerup"}
+            />
+            <p className="desc">
+              3rd Place at the InnoEnergy Power up 2019 national finals in Riga
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className={"showcase"}>
+      <div style={{ textAlign: "center", marginTop: 50 }}>
+        <h2>Our Investors and Partners</h2>
+        <div className={"row"}>
+          <div className={"col-4"}>
+            <img src={logo1} className={"partner_logo"} alt={"mongodb"} />
+          </div>
+          <div className={"col-4"}>
+            <img src={logo2} className={"partner_logo"} alt={"skydeck"} />
+          </div>
+          <div className={"col-4"}>
+            <img src={logo3} className={"partner_logo"} alt={"liaa"} />
+          </div>
+          <div className={"col-4"}>
+            <img src={logo4} className={"partner_logo"} alt={"buildit"} />
+          </div>
+          <div className={"col-4"}>
+            <img src={logo5} className={"partner_logo"} alt={"brinc"} />
+          </div>
+          <div className={"col-4"}>
+            <img src={logo6} className={"partner_logo"} alt={"artesian"} />
+          </div>
+        </div>
       </div>
     </div>
   </Layout>

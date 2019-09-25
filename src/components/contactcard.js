@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
+import iconEmail from "../../static/images/icon-linkedin.svg" //FIXME
 
 export default class IconCard extends Component {
   static propTypes = {
@@ -23,6 +24,17 @@ export default class IconCard extends Component {
                 <img
                   alt={"LinkedIn"}
                   src={iconLinkedin}
+                  style={{ maxHeight: "20px", padding: 8 }}
+                />
+              </a>
+            </div>
+          )}
+          {email && (
+            <div className={"contactemail"}>
+              <a href={email} target={"_blank"} title={title}>
+                <img
+                  alt={"email"}
+                  src={iconEmail}
                   style={{ maxHeight: "20px", padding: 8 }}
                 />
               </a>
