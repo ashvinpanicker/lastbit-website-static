@@ -3,20 +3,16 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Subscribe from "../components/subscribe"
-import hodler1 from "../../static/images/Hodler_1.34.png"
-import hodler2 from "../../static/images/Hodler_1.37.png"
-import blob2 from "../../static/images/blob2.svg"
 // import blob1 from "../../static/images/blob-shape.svg"
 import IconCard from "../components/iconcard"
 import mobilepay from "../../static/images/mobile-pay.png"
-import apphodler from "../../static/images/app-hodler.png"
-import lightning from "../../static/images/lightning.png"
+import lightningbolt from "../../static/images/lightning_bolt.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
 import landing from "../../static/images/landing.png"
-import vcards from "../../static/images/vcards.svg"
 import easy from "../../static/images/easy-icon-2.png"
 import video from "../../static/video/bg-01.mp4"
+import Features from "../components/features"
 
 const IndexPage = () => (
   <Layout>
@@ -36,75 +32,12 @@ const IndexPage = () => (
             Even if the merchant doesn't accept it.
           </p>
         </div>
-        {/* <div className="video">
-          <iframe
-            className="resp-iframe"
-            src={"https://www.youtube.com/embed/Tn7wvu8R4Wk"}
-            title={"junk"}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            frameBorder="0"
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-            allowFullScreen
-          />
-        </div> */}
         <div className={"col-6"}>
           <img src={landing} alt="graphic" className={"landing_img"} />
         </div>
       </div>
     </div>
 
-    <div className={"container"}>
-      <div className={"features"}>
-        <div className={"feature__item"}>
-          <div className={"row row_card"}>
-            <div className={"col-6 first"}>
-              <div className={"thumbnail"}>
-                <img alt={"blob2"} src={blob2} className={"feature_blob"} />
-                <img alt={"hodler1"} src={hodler1} />
-              </div>
-            </div>
-
-            <div className={"col-6"}>
-              <div className={"feature__content"}>
-                <h2>Compact and Wireless</h2>
-                <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                  tortor eu, sodales suscipit nisi.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className={"feature__item"}>
-          <div className={"row row_card"}>
-            <div className={"col-6"}>
-              <div className={"feature__content"} style={{ paddingLeft: "7%" }}>
-                <h2>Complete Transparency</h2>
-                <p className={"subtitle"}>
-                  Put in a hook in this sentence, concise
-                  <br />
-                  Write a slightly longer sentence here as a short description
-                  to follow up on the hook.
-                  <br />
-                  End it with a punchline or link if necessary.
-                </p>
-              </div>
-              {/* <img alt={"blob1"} src={blob1} /> */}
-            </div>
-
-            <div className={"col-6 first"}>
-              <div className={"thumbnail"}>
-                <img alt="blob2" src={blob2} className={"feature_blob"} />
-                <img alt={"hw2"} src={hodler2} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div className={"container"} style={{ marginBottom: 50 }}>
       <div className={"row"}>
         <div className={"col-4"}>
@@ -118,7 +51,7 @@ const IndexPage = () => (
         </div>
         <div className={"col-4"}>
           <IconCard
-            src={lightning}
+            src={lightningbolt}
             title={"Lightning Fast"}
             desc={
               "Instantly transact with bitcoin over the lightning network with much lower fees"
@@ -137,85 +70,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div style={{ textAlign: "center" }}>
-      <h2>How Virtual Cards Work</h2>
-      <img
-        src={vcards}
-        alt="vcards"
-        style={{
-          maxWidth: "-webkit-fill-available",
-          paddingRight: 20,
-          paddingLeft: 20,
-          marginBottom: 40
-        }}
-      />
-    </div>
-
-    <div className={"container row"}>
-      <div className={"col-6"}>
-        <div className="device device-iphone-x">
-          <div className="device-frame">
-            <img className="device-content" src={apphodler} alt={"img"} />
-          </div>
-          <div className="device-stripe"></div>
-          <div className="device-header"></div>
-          <div className="device-sensors"></div>
-          <div className="device-btns"></div>
-          <div className="device-power"></div>
-        </div>
-      </div>
-      <div className={"col-6"}>
-        <div className={"features"}>
-          <div className={"feature__item"}>
-            <div className={"row row_card"}>
-              <div
-                className={"feature__content"}
-                style={{ padding: "12% 0% 4% 6%" }}
-              >
-                <h2>Bitcoin</h2>
-                <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                  tortor eu, sodales suscipit nisi.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className={"feature__item"}>
-            <div className={"row row_card"}>
-              <div
-                className={"feature__content"}
-                style={{ padding: "12% 0% 4% 6%" }}
-              >
-                <h2>Lightning</h2>
-                <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                  tortor eu, sodales suscipit nisi.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className={"feature__item"}>
-            <div className={"row row_card"}>
-              <div
-                className={"feature__content"}
-                style={{ padding: "12% 0% 4% 6%" }}
-              >
-                <h2>Virtual Card</h2>
-                <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                  tortor eu, sodales suscipit nisi.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Features />
 
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>
@@ -245,7 +100,7 @@ const IndexPage = () => (
       </div>
 
       {/* Responsive iphone https://codepen.io/dani3lsz/pen/MEZjeo?editors=1100 */}
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      {/* <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="device device-iphone-x">
           <div className="device-frame">
             <video className="device-content" muted="muted" autoplay="" loop="">
@@ -258,15 +113,6 @@ const IndexPage = () => (
           <div className="device-btns"></div>
           <div className="device-power"></div>
         </div>
-      </div>
-
-      {/* <div style={{ textAlign: "center" }}>
-        <img
-          src={apphodler}
-          alt={"app_screens"}
-          className={"img-responsive"}
-          style={{ width: "80%" }}
-        />
       </div> */}
     </div>
 

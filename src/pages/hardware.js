@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import hodler1 from "../../static/images/Hodler_1.34.png"
 import hodler2 from "../../static/images/Hodler_1.37.png"
 import blob2 from "../../static/images/blob2.svg"
+import apphodler from "../../static/images/hwandphone.png"
 // import blob1 from "../../static/images/blob-shape.svg"
 
 const AboutPage = () => (
@@ -22,7 +23,7 @@ const AboutPage = () => (
         <div className="video">
           <iframe
             className="resp-iframe"
-            src={"https://www.youtube.com/embed/Tn7wvu8R4Wk"}
+            src={"https://www.youtube.com/embed/OecjlgoTRnA"}
             title={"junk"}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
@@ -81,6 +82,15 @@ const AboutPage = () => (
                 <img alt={"hw2"} src={hodler2} />
               </div>
             </div>
+          </div>
+
+          <div style={{ textAlign: "center" }}>
+            <img
+              src={apphodler}
+              alt={"app_screens"}
+              className={"img-responsive"}
+              style={{ width: "80%" }}
+            />
           </div>
         </div>
       </div>

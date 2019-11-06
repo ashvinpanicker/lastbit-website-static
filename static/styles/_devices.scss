@@ -1,3 +1,5 @@
+$break-small: 719px;
+
 /*! Devices.css v0.1.16 | MIT License | github.com/picturepan2/devices.css */
 .device,
 .device::before,
@@ -170,6 +172,12 @@
   right: -3px;
   top: 200px;
   width: 3px;
+}
+
+@media screen and (max-width: $break-small) {
+  .device {
+    margin: 0 auto;
+  }
 }
 
 .device-iphone-8 {

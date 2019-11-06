@@ -151,7 +151,7 @@ body {
 
   .features {
     .feature__item {
-      padding: 50px 0;
+      margin: 50px 0;
 
       .row {
         display: flex;
@@ -166,12 +166,12 @@ body {
         background: white;
         z-index: -2;
         padding-right: 20px;
-        border-radius: 35px;
+        border-radius: 5px;
         box-shadow: rgba(156, 133, 133, 0.11) 0px 6px 6px 0px;
       }
 
       .feature__content {
-        margin-top: -15%;
+        padding: 0px 0px 20px 30px;
         justify-content: center;
         display: flex;
         flex-direction: column;
@@ -206,6 +206,10 @@ body {
       }
     }
 
+    .feature__item:hover {
+      cursor: pointer;
+    }
+
     @media screen and (max-width: $break-small) {
       .col-6.first {
         order: 1;
@@ -224,6 +228,20 @@ body {
       h2 {
         margin-top: 10px;
       }
+    }
+
+    .bar {
+      position: absolute;
+      visibility: hidden;
+      left: 0;
+      width: 0;
+      height: 140px;
+      padding: 4px;
+      background: rgb(33, 124, 243);
+    }
+
+    .bar__active {
+      visibility: visible;
     }
   }
 
