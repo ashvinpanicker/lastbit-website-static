@@ -33,17 +33,26 @@ export default class Features extends Component {
     return (
       <div className={"row"}>
         <div className={"col-6"}>
-          <div className="device device-iphone-x">
-            <img
-              src={this.state.img}
-              alt={"app"}
-              className="img-responsive device-frame"
-            />
-            <div className="device-stripe"></div>
-            <div className="device-header"></div>
-            <div className="device-sensors"></div>
-            <div className="device-btns"></div>
-            <div className="device-power"></div>
+          <div className="px">
+            <div className="px__body">
+              <div className="px__body__cut"></div>
+              <div className="px__body__speaker"></div>
+              <div className="px__body__sensor"></div>
+
+              <div className="px__body__mute"></div>
+              <div className="px__body__up"></div>
+              <div className="px__body__down"></div>
+              <div className="px__body__right"></div>
+            </div>
+
+            <div className="px__screen">
+              <div className="px__screen__">
+                <img
+                  className="px__screen__frame img-responsive"
+                  src={this.state.img}
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className={"col-6"} style={{ position: "relative", zIndex: 10 }}>

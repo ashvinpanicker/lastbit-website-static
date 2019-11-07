@@ -151,7 +151,7 @@ body {
 
   .features {
     .feature__item {
-      margin: 50px 0;
+      margin: 3vw 0;
 
       .row {
         display: flex;
@@ -177,19 +177,31 @@ body {
         flex-direction: column;
 
         h2 {
-          font-size: 36px;
+          font-size: 2.4vw;
           font-weight: bold;
           margin-bottom: 15px;
           color: #1e1c21;
         }
 
         p {
-          font-size: 18px;
+          font-size: 1.2vw;
           line-height: 26px;
         }
 
         @media screen and (max-width: $break-small) {
           margin-top: 0;
+
+          h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #1e1c21;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 26px;
+          }
         }
       }
 
