@@ -31,7 +31,7 @@ export default class Features extends Component {
 
   render() {
     return (
-      <div className={"container row"}>
+      <div className={"row"}>
         <div className={"col-6"}>
           <div className="device device-iphone-x">
             <img
@@ -46,7 +46,7 @@ export default class Features extends Component {
             <div className="device-power"></div>
           </div>
         </div>
-        <div className={"col-6"}>
+        <div className={"col-6"} style={{ position: "relative", zIndex: 10 }}>
           <div className={"features"}>
             <div
               className={"feature__item"}

@@ -12,6 +12,7 @@ import apple from "../../static/images/apple.png"
 import landing from "../../static/images/landing.png"
 import easy from "../../static/images/easy-icon-2.png"
 import video from "../../static/video/bg-01.mp4"
+import land from "../../static/images/land.png"
 import Features from "../components/features"
 
 const IndexPage = () => (
@@ -38,7 +39,18 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className={"container"} style={{ marginBottom: 50 }}>
+    <div className={"container"} style={{ marginBottom: 50, marginTop: 50 }}>
+      <h2 style={{ fontSize: 40, color: "navy" }}>
+        The Complete financial suite for Bitcoin
+      </h2>
+      <img
+        src={land}
+        alt={"Store, Send, Spend Bitcoin Instantly"}
+        style={{
+          width: window.innerWidth * 0.8,
+          margin: "0 auto",
+        }}
+      />
       <div className={"row"}>
         <div className={"col-4"}>
           <IconCard
@@ -70,7 +82,12 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <Features />
+    <div className={"container"} style={{ fontSize: 40, color: "navy" }}>
+      <h2 style={{ fontSize: 40, color: "navy" }}>
+        Use crypto in the real world
+      </h2>
+      <Features />
+    </div>
 
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>
