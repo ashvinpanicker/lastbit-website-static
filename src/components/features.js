@@ -70,9 +70,9 @@ export default class Features extends Component {
                   <div className={"col-6"} style={{ width: "90%" }}>
                     <h2>Bitcoin</h2>
                     <p className={"subtitle"}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                      tortor eu, sodales suscipit nisi.
+                      A segwit compatible HD Bitcoin wallet conforming with the
+                      latest industry standards and BIP's. Use this wallet to
+                      make standard OnChain Bitcoin transactions
                     </p>
                   </div>
                 </div>
@@ -89,9 +89,9 @@ export default class Features extends Component {
                   <div className={"col-6"} style={{ width: "90%" }}>
                     <h2>Lightning</h2>
                     <p className={"subtitle"}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                      tortor eu, sodales suscipit nisi.
+                      Harness the power of the lightning network in the palm of
+                      your hands. Send and Receive bitcoin instantly with
+                      negligible fees.
                     </p>
                   </div>
                 </div>
@@ -108,9 +108,9 @@ export default class Features extends Component {
                   <div className={"col-6"} style={{ width: "90%" }}>
                     <h2>Virtual Card</h2>
                     <p className={"subtitle"}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                      tortor eu, sodales suscipit nisi.
+                      Receive Virtual debit cards in exchange for BTC on our
+                      platform. Start spending your satoshis at the biggest
+                      retailers!
                     </p>
                   </div>
                 </div>
