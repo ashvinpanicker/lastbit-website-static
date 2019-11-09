@@ -71,6 +71,16 @@ body {
         }
       }
     }
+    .header-link {
+      margin-left: 50%;
+      @media screen and (max-width: $break-medium) {
+        margin-left: 35%;
+      }
+
+      @media screen and (max-width: $break-small) {
+        display: none;
+      }
+    }
   }
 
   .landing {

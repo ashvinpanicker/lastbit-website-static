@@ -13,6 +13,12 @@ const Header = ({ siteTitle }) => (
           </Link>
         </div>
 
+        <div className={"header-link"}>
+          <Link to="/about" title={"about"}>
+            About
+          </Link>
+        </div>
+
         <div className={"get-started"}>
           <Link to="/#subscribe" title={"lastbit"}>
             SIGN UP
