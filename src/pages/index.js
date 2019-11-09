@@ -11,7 +11,7 @@ import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
 import landing from "../../static/images/screens.png"
 import easy from "../../static/images/easy-icon-2.png"
-import video from "../../static/video/bg-01.mp4"
+// import video from "../../static/video/bg-01.mp4"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
 

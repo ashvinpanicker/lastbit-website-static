@@ -26,6 +26,9 @@ export default class Features extends Component {
       case "card":
         this.setState({ img: card })
         break
+      default:
+        this.setState({ img: bitcoin })
+        break
     }
   }
 
@@ -50,6 +53,7 @@ export default class Features extends Component {
                 <img
                   className="px__screen__frame img-responsive"
                   src={this.state.img}
+                  alt={"lastbit_app-screen"}
                 />
               </div>
             </div>
