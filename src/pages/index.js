@@ -40,7 +40,7 @@ const IndexPage = () => (
     </div>
     <section className={"sky"}>
       <div className={"container"} style={{ marginBottom: 50, marginTop: 50 }}>
-        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
+        <h2 className={"section_title"}>
           The Complete financial suite for Bitcoin
         </h2>
         <img
@@ -101,9 +101,7 @@ const IndexPage = () => (
 
     <section className={"features__section"}>
       <div className={"container"}>
-        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
-          Use crypto in the real world
-        </h2>
+        <h2 className={"section_title"}>Use crypto in the real world</h2>
         <Features />
       </div>
     </section>
@@ -116,7 +114,7 @@ const IndexPage = () => (
         Constantly updated, fully functional bitcoin and lightning wallet (Only
         testnet BTC)
       </p>
-      <div className={"row container"}>
+      <div className={"row container"} style={{ paddingBottom: 60 }}>
         <img
           src={google}
           alt={"playstore"}
