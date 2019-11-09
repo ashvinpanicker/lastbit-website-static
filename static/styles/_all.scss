@@ -72,13 +72,24 @@ body {
       }
     }
     .header-link {
+      margin-top: 15px;
+      font-weight: bold;
       margin-left: 50%;
+
       @media screen and (max-width: $break-medium) {
         margin-left: 35%;
       }
 
       @media screen and (max-width: $break-small) {
         display: none;
+      }
+
+      a {
+        color: darkgray;
+      }
+
+      a:hover {
+        color: #00204a;
       }
     }
   }
