@@ -17,7 +17,7 @@ import Features from "../components/features"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Store and Spend Bitcoin" />
+    <SEO title="A closed loop bitcoin economy" />
 
     <div className={"page-header home"}>
       <div
@@ -25,13 +25,15 @@ const IndexPage = () => (
         style={{ background: "#f6f9fc", textAlign: "center" }}
       >
         <h1>
-          Store and Spend <span style={{ color: "#ff9900" }}>Bitcoin</span>
+          Spend, Send & Save <span style={{ color: "#ff9900" }}>Bitcoin</span>
         </h1>
         <p className={"subtitle"} style={{ marginBottom: 40 }}>
-          Use crypto as a currency, the way it was meant to be used, even if the
-          merchant doesn't accept it.
+          Your personal lightning powered Bitcoin debit card 
         </p>
         <Subscribe />
+        <p className={"subtitle"} style={{ marginBottom: 40 }}>
+          Join the waitlist to be the first to get personal physical cards & IBAN accounts to store, spend & earn Bitcoin over the Lightning Network
+        </p>
       </div>
       {/* <div className={"col-6"}>
           <img src={landing} alt="graphic" className={"landing_img"} />
@@ -41,7 +43,7 @@ const IndexPage = () => (
     <section className={"sky"}>
       <div className={"container"} style={{ marginBottom: 50, marginTop: 50 }}>
         <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
-          The Complete financial suite for Bitcoin
+          Towards a closed loop Bitcoin economy
         </h2>
         <img
           src={zeus}
@@ -71,27 +73,27 @@ const IndexPage = () => (
           <div className={"col-4"}>
             <IconCard
               src={mobilepay}
-              title={"Pay with Bitcoin"}
+              title={"Easy On-Ramps"}
               desc={
-                "The last mile adoption for crypto. Tap and pay with bitcoin at any existing card machine"
+                "Get started with Bitcoin on the Lightning Network by simply purchasing Bitcoin with your credit card"
               }
             />
           </div>
           <div className={"col-4"}>
             <IconCard
               src={lightningbolt}
-              title={"Lightning Fast"}
+              title={"Easy Off-Ramps"}
               desc={
-                "Instantly transact with bitcoin over the lightning network with significantly lower fees than an onchain transaction"
+                "Send Bitcoin to anyone over social media readily available to use on the Lightning Network or spendable on a personal debit card"
               }
             />
           </div>
           <div className={"col-4"}>
             <IconCard
               src={easy}
-              title={"Easy Setup"}
+              title={"Incentivized Spending"}
               desc={
-                "Start using Bitcoin anywhere in the world with zero setup time. No bank account required."
+                "Your personal IBAN account to spend fiat and earn Bitcoin cashbacks that you can spend & send instantly!"
               }
             />
           </div>
@@ -102,7 +104,7 @@ const IndexPage = () => (
     <section className={"features__section"}>
       <div className={"container"}>
         <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
-          Use crypto in the real world
+          Lastbit mobile (iOS & Android)
         </h2>
         <Features />
       </div>
@@ -110,11 +112,10 @@ const IndexPage = () => (
 
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>
-        Download Testnet Version for iOS and Android
+        Try our testnet Bitcoin & Lightning wallet
       </h4>
       <p className={"showcase_desc"}>
-        Constantly updated, fully functional bitcoin and lightning wallet (Only
-        testnet BTC)
+        Signup below to join the waitlist to use our completely new application featuring virtual debit cards
       </p>
       <div className={"row container"}>
         <img
@@ -151,10 +152,9 @@ const IndexPage = () => (
     <div id="subscribe" className={"call-to-action"}>
       <div className={"container"}>
         <div className={"call-to-action__content"}>
-          <h2>The world's first Lightning powered payment service</h2>
+          <h2>The world's first Lightning powered consumer payments product</h2>
           <p>
-            Start using bitcoin to pay at any retail or online store even if the
-            merchant does not accept bitcoin!
+              Join the waitlist to be a part of the beta launch
           </p>
         </div>
       </div>

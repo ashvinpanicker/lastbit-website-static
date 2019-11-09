@@ -72,11 +72,11 @@ export default class Features extends Component {
                     className={"col-6 first bar bar__active"}
                   ></div>
                   <div className={"col-6"} style={{ width: "90%" }}>
-                    <h2>Bitcoin</h2>
+                    <h2>Bitcoin Wallet</h2>
                     <p className={"subtitle"}>
                       A segwit compatible HD Bitcoin wallet conforming with the
                       latest industry standards and BIP's. Use this wallet to
-                      make standard OnChain Bitcoin transactions
+                      make regular Bitcoin transactions
                     </p>
                   </div>
                 </div>
@@ -91,11 +91,10 @@ export default class Features extends Component {
                 <div className={"feature__content"}>
                   <div id="lightning" className={"col-6 first bar"}></div>
                   <div className={"col-6"} style={{ width: "90%" }}>
-                    <h2>Lightning</h2>
+                    <h2>Lightning Wallet</h2>
                     <p className={"subtitle"}>
-                      Harness the power of the lightning network in the palm of
-                      your hands. Send and Receive bitcoin instantly with
-                      negligible fees.
+                      Begin using the Lightning Network with zero setup. Send and Receive bitcoin instantly with
+                      negligible fees. Non-custodial option coming soon for advanced users.
                     </p>
                   </div>
                 </div>
@@ -110,11 +109,9 @@ export default class Features extends Component {
                 <div className={"feature__content"}>
                   <div id="card" className={"col-6 first bar"}></div>
                   <div className={"col-6"} style={{ width: "90%" }}>
-                    <h2>Virtual Card</h2>
+                    <h2>Virtual Debit Cards</h2>
                     <p className={"subtitle"}>
-                      Receive Virtual debit cards in exchange for BTC on our
-                      platform. Start spending your satoshis at the biggest
-                      retailers!
+                      Your personal virtual debit card that can be topped up in EUR using Bitcoin over LN, all in 2 simple steps.
                     </p>
                   </div>
                 </div>
