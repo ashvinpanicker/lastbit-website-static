@@ -9,7 +9,7 @@ import mobilepay from "../../static/images/mobile-pay.png"
 import lightningbolt from "../../static/images/lightning_bolt.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
-import landing from "../../static/images/landing.png"
+import landing from "../../static/images/screens.png"
 import easy from "../../static/images/easy-icon-2.png"
 import video from "../../static/video/bg-01.mp4"
 import zeus from "../../static/images/zeus.gif"
@@ -20,27 +20,27 @@ const IndexPage = () => (
     <SEO title="Store and Spend Bitcoin" />
 
     <div className={"page-header home"}>
-      <div className={"container row landing"}>
-        <div className={"col-6"}>
-          <h1>
-            Store and Spend <span style={{ color: "#ff9900" }}>Bitcoin</span>
-          </h1>
-          <p className={"lightText"}>
-            Use crypto as a currency
-            <br />
-            The way it was meant to be used
-            <br />
-            Even if the merchant doesn't accept it.
-          </p>
-        </div>
-        <div className={"col-6"}>
-          <img src={landing} alt="graphic" className={"landing_img"} />
-        </div>
+      <div
+        className={"container  call-to-action row landing"}
+        style={{ background: "#f6f9fc", textAlign: "center" }}
+      >
+        <h1>
+          Store and Spend <span style={{ color: "#ff9900" }}>Bitcoin</span>
+        </h1>
+        <p className={"subtitle"} style={{ marginBottom: 40 }}>
+          Use crypto as a currency, the way it was meant to be used, even if the
+          merchant doesn't accept it.
+        </p>
+        <Subscribe />
       </div>
+      {/* <div className={"col-6"}>
+          <img src={landing} alt="graphic" className={"landing_img"} />
+        </div> */}
+      <img src={landing} alt="screens" className={"landing_img"} />
     </div>
     <section className={"sky"}>
       <div className={"container"} style={{ marginBottom: 50, marginTop: 50 }}>
-        <h2 style={{ fontSize: 40, color: "navy" }}>
+        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
           The Complete financial suite for Bitcoin
         </h2>
         <img
@@ -99,12 +99,14 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <div className={"container"}>
-      <h2 style={{ fontSize: 40, color: "navy" }}>
-        Use crypto in the real world
-      </h2>
-      <Features />
-    </div>
+    <section className={"features__section"}>
+      <div className={"container"}>
+        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
+          Use crypto in the real world
+        </h2>
+        <Features />
+      </div>
+    </section>
 
     <div className={"showcase"}>
       <h4 className={"showcase_title"}>

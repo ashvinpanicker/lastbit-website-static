@@ -1,4 +1,5 @@
 $break-small: 719px;
+$break-medium: 1161px;
 
 body {
   font-family: OpenSans, sans-serif;
@@ -33,7 +34,7 @@ body {
   }
 
   header {
-    background-color: #fdfaff;
+    background-color: #f6f9fc;
     display: block;
     padding: 39px 0;
 
@@ -74,6 +75,27 @@ body {
 
   .landing {
     padding-bottom: 80px;
+
+    input[type="email"] {
+      width: 100%;
+      border-radius: 4px 0px 0px 4px;
+      height: 54px;
+      padding: 10px 20px;
+      margin: 8px 0;
+      font-size: 18px;
+      border: 1px solid;
+      box-sizing: border-box;
+
+      @media screen and (max-width: $break-small) {
+        border-radius: 4%;
+      }
+    }
+  }
+
+  .landing_img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
 
   .video {
@@ -97,14 +119,17 @@ body {
   }
 
   .page-header {
+    position: relative;
+    z-index: 5;
     text-align: left;
-    padding: 100px 0 100px 0;
-    background-image: linear-gradient(to right, #00204a, rgb(0, 69, 125));
-    // background-color: #00204a;
+    background-color: #f6f9fc;
+    // background-image: linear-gradient(to right, #00204a, rgb(0, 69, 125));
     // border-bottom-left-radius: 30% 20%;
     // border-bottom-right-radius: 90% 50%;
     // clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-    border-radius: 0 0 50% 50% / 126px;
+    // border-radius: 0 0 50% 50% / 126px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
 
     @media screen and (max-width: $break-small) {
       padding-top: 1px;
@@ -120,7 +145,7 @@ body {
       font-style: normal;
       font-weight: bold;
       font-size: 48px;
-      color: #ffffff;
+      color: #444;
       padding: 0 0 15px 0;
       line-height: 54px;
     }
@@ -129,7 +154,7 @@ body {
       font-size: 36px;
       font-style: normal;
       font-weight: bold;
-      color: #ffffff;
+      color: #444;
       line-height: 54px;
     }
 
@@ -146,7 +171,7 @@ body {
     }
 
     &.home {
-      padding-bottom: 30px;
+      padding-bottom: 100px;
     }
   }
 
@@ -210,6 +235,13 @@ body {
           position: absolute;
           z-index: -1;
           margin-top: -60px;
+          @media screen and (max-width: $break-medium) {
+            height: 330px;
+          }
+
+          @media screen and (max-width: $break-small) {
+            height: 400px;
+          }
         }
       }
     }
@@ -220,6 +252,22 @@ body {
         cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
       animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)
         both;
+    }
+
+    .hardware {
+      .row_card {
+        background: white;
+        z-index: -2;
+        padding-right: 20px;
+        border-radius: 25px;
+        box-shadow: rgba(156, 133, 133, 0.11) 0px 6px 6px 0px;
+      }
+    }
+
+    .hardware:hover {
+      cursor: default;
+      -webkit-animation: none;
+      animation: none;
     }
 
     @-webkit-keyframes shadow-drop-center {
@@ -276,6 +324,14 @@ body {
     .bar__active {
       visibility: visible;
     }
+  }
+
+  .features__section {
+    position: relative;
+    height: inherit;
+    margin-top: -300px;
+    padding-top: 300px;
+    padding-bottom: 100px;
   }
 
   .call-to-action {
@@ -680,8 +736,6 @@ body {
 /* ANIMATIONS */
 
 .x1 {
-  position: relative;
-  z-index: 2;
   padding-top: 50px;
   -webkit-animation: animateCloud 35s linear infinite;
   -moz-animation: animateCloud 35s linear infinite;
@@ -726,8 +780,6 @@ body {
 }
 
 .x5 {
-  position: relative;
-  z-index: 2;
   -webkit-animation: animateCloud 25s linear infinite;
   -moz-animation: animateCloud 25s linear infinite;
   animation: animateCloud 25s linear infinite;
@@ -741,7 +793,7 @@ body {
 
 .sky {
   position: relative;
-  z-index: -1;
+  z-index: 2;
   background: #bedaff;
   height: inherit;
   margin-top: -300px;
@@ -757,7 +809,9 @@ body {
   min-width: 300px;
   position: absolute;
   left: 25%;
-  z-index: 1;
+  border-radius: 100%;
+  border: 1px solid;
+  z-index: 3;
 }
 
 .cloud {

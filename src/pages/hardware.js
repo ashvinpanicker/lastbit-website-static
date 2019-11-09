@@ -12,9 +12,14 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Hardware" />
 
-    <div className={"page-header"}>
+    <div
+      className={"page-header"}
+      style={{ background: "#00204a", padding: "100px 0px" }}
+    >
       <div className={"container landing"}>
-        <h2>The Hardware wallet that lets you spend</h2>
+        <h2 style={{ color: "white" }}>
+          The Hardware wallet that lets you spend
+        </h2>
         <p className={"lightText"}>
           Welcome to the future
           <br />
@@ -37,8 +42,8 @@ const AboutPage = () => (
 
     <div className={"container"}>
       <div className={"features"}>
-        <div className={"feature__item"}>
-          <div className={"row row_card"}>
+        <div className={"feature__item hardware"}>
+          <div className={"row row_card"} style={{ borderRadius: 25 }}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
                 <img alt={"blob2"} src={blob2} className={"feature_blob"} />
@@ -50,27 +55,29 @@ const AboutPage = () => (
               <div className={"feature__content"}>
                 <h2>Compact and Wireless</h2>
                 <p className={"subtitle"}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse eu nisi elit. Maecenas leo diam, placerat ut
-                  tortor eu, sodales suscipit nisi.
+                  The Lastbit Go is designed to fit into your pocket. Attach it
+                  to your keychain and carry it around to help you make your
+                  daily purchases with crypto!
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className={"feature__item"}>
-          <div className={"row row_card"}>
+        <div className={"feature__item hardware"}>
+          <div className={"row row_card"} style={{ borderRadius: 25 }}>
             <div className={"col-6"}>
               <div className={"feature__content"} style={{ paddingLeft: "7%" }}>
-                <h2>Complete Transparency</h2>
+                <h2>Security Redefined</h2>
                 <p className={"subtitle"}>
-                  Put in a hook in this sentence, concise
-                  <br />
-                  Write a slightly longer sentence here as a short description
-                  to follow up on the hook.
-                  <br />
-                  End it with a punchline or link if necessary.
+                  <ul style={{ listStyle: "disc" }}>
+                    <li>Engineered to keep your crypto safe.</li>
+                    <li>
+                      Built with an EEAL5+ certified secure element on top of
+                      Arm Trust Zone Technology
+                    </li>
+                    <li>Split your wallets with SD card wallet isolation.</li>
+                  </ul>
                 </p>
               </div>
               {/* <img alt={"blob1"} src={blob1} /> */}
@@ -83,15 +90,28 @@ const AboutPage = () => (
               </div>
             </div>
           </div>
-
-          <div style={{ textAlign: "center" }}>
-            <img
-              src={apphodler}
-              alt={"app_screens"}
-              className={"img-responsive"}
-              style={{ width: "80%" }}
-            />
-          </div>
+          {/* <div className={"feature__item"}>
+            <div className={"row row_card"}>
+              <div
+                className={"feature__content"}
+                style={{ cursor: "default !important" }}
+              >
+                <div style={{ textAlign: "center" }}>
+                  <img
+                    src={apphodler}
+                    alt={"app_screens"}
+                    className={"img-responsive"}
+                    style={{ width: "80%" }}
+                  />
+                  <p className={"subtitle"} style={{ fontStyle: "italic" }}>
+                    Pairs with any iOS or Android smartphone via bluetooth to
+                    help conveniently manage your funds
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          <br />
         </div>
       </div>
     </div>

@@ -3,14 +3,12 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import Roadmap from "../components/roadmap"
-// import Roadmap from "../components/roadmap"
 import informationImage from "../../static/images/Information-document.svg"
 import eventImage from "../../static/images/Event-managment.svg"
 import ProductivityImage from "../../static/images/Increase-Productivity.svg"
 import happinessImage from "../../static/images/Make-happiness.svg"
 import ContactCard from "../components/contactcard"
 import logo from "../../static/images/logo.png"
-import roadmap from "../../static/images/timeline.svg"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
@@ -34,9 +32,12 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
 
-    <div className={"page-header"}>
+    <div
+      className={"page-header"}
+      style={{ background: "#00204a", padding: "100px 0px" }}
+    >
       <div className={"container landing"}>
-        <h2>
+        <h2 style={{ color: "white" }}>
           By <span style={{ color: "#ff9900" }}>Bitcoiners</span>, for{" "}
           <span style={{ color: "#ff9900" }}>Bitcoiners</span>
         </h2>
@@ -69,9 +70,10 @@ const AboutPage = () => (
               <img alt={"Information"} src={informationImage} />
               <h3>Passion</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse eu nisi elit. Maecenas leo diam, placerat ut tortor
-                eu, sodales suscipit nisi.
+                We at lastbit believe that great things can be acheived only if
+                there is a burning desire to acheive them. Our team comprises of
+                young like minds who strongly believe in a future of financial
+                independence.
               </p>
             </div>
           </div>
@@ -81,9 +83,10 @@ const AboutPage = () => (
               <img alt={"Event"} src={eventImage} />
               <h3>Perseverance</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse eu nisi elit. Maecenas leo diam, placerat ut tortor
-                eu, sodales suscipit nisi.
+                When the times get tough, the ones who can keep their heads held
+                high and envision a bright future to come are well rewarded.
+                After all the fruits of success are borne by the ones that put
+                in the hard work to reap them.
               </p>
             </div>
           </div>
@@ -95,9 +98,7 @@ const AboutPage = () => (
               <img alt={"Productivity"} src={ProductivityImage} />
               <h3>Persistence</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse eu nisi elit. Maecenas leo diam, placerat ut tortor
-                eu, sodales suscipit nisi.
+                Try and try until you succeed. Never give in even if you bleed.
               </p>
             </div>
           </div>
@@ -106,7 +107,11 @@ const AboutPage = () => (
             <div className={"item"}>
               <img alt={"Happiness"} src={happinessImage} />
               <h3>Humour</h3>
-              <p>It's all about the memes folks</p>
+              <p>
+                It's all about the memes folks. It's always hard to strike a
+                work-life balance, that's why we encourage humour in the
+                workplace to make the environment fun and ever exciting!
+              </p>
             </div>
           </div>
         </div>
@@ -147,6 +152,16 @@ const AboutPage = () => (
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
+            src={
+              "https://angel.co/cdn-cgi/image/width=200,height=200,format=auto,fit=cover/https://d1qb2nb5cznatu.cloudfront.net/users/7890980-original?1566207977"
+            }
+            title={"Shivam Dev"}
+            subtitle={"App Developer"}
+            linkedIn={"https://www.linkedin.com/in/skdev24"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
             src={kristo}
             title={"Kristo Magi"}
             subtitle={"Advisor"}
@@ -161,6 +176,8 @@ const AboutPage = () => (
             linkedIn={"https://www.linkedin.com/in/kailikleemeier"}
           />
         </div>
+      </div>
+      <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
             src={pochiwu}
@@ -169,8 +186,6 @@ const AboutPage = () => (
             linkedIn={"https://www.linkedin.com/in/pochiwu"}
           />
         </div>
-      </div>
-      <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
             src={alan}
@@ -199,21 +214,7 @@ const AboutPage = () => (
           />
         </div>
       </div>
-
-      <div style={{ textAlign: "center", marginTop: 50 }}>
-        <h2>Roadmap</h2>
-        <img
-          src={roadmap}
-          alt="roadmap"
-          style={{
-            maxWidth: "-webkit-fill-available",
-            paddingRight: 20,
-            paddingLeft: 20,
-            marginTop: 40,
-            marginBottom: 40,
-          }}
-        />
-      </div>
+      <div style={{ padding: "25px 0px" }}></div>
     </div>
 
     <div className={"container"} style={{ textAlign: "center", marginTop: 50 }}>
@@ -303,6 +304,9 @@ const AboutPage = () => (
               }
             />
           </div>
+        </div>
+        <div style={{ padding: "25px 0px" }}></div>
+        <div className={"row"}>
           <div className={"col-4"}>
             <img
               src={logo4}
@@ -330,6 +334,7 @@ const AboutPage = () => (
             />
           </div>
         </div>
+        <div style={{ padding: "25px 0px" }}></div>
       </div>
     </div>
   </Layout>
