@@ -48,7 +48,7 @@ export default class Subscribe extends Component {
             name="email"
           />
           <div className="button">
-            <button onClick={e => this._handleSubmit(e)}>Notify Me</button>
+            <button onClick={e => this._handleSubmit(e)}>Join the waitlist</button>
           </div>
         </form>
         <div style={{ paddingTop: 20 }}>
