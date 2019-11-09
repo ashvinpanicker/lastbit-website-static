@@ -14,10 +14,15 @@ import roadmap from "../../static/images/timeline.svg"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
+import alan from "../../static/images/alan.jpg"
+import pochiwu from "../../static/images/pochiwu.png"
+import chon from "../../static/images/chon.jpg"
 import kristo from "../../static/images/Kristo@3x.png"
 import kaili from "../../static/images/Kaili@3x.png"
-import event1 from "../../static/images/Event1.svg"
-import event2 from "../../static/images/Event2.svg"
+import boldawards from "../../static/images/boldawards.svg"
+import innoenergy from "../../static/images/innoenergy.svg"
+import techcrunch from "../../static/images/techcrunch.png"
+import money2020 from "../../static/images/money2020.png"
 import logo1 from "../../static/images/Logo1.svg"
 import logo2 from "../../static/images/Logo2.svg"
 import logo3 from "../../static/images/Logo3.svg"
@@ -135,7 +140,7 @@ const AboutPage = () => (
             src={pratham}
             title={"Pratham Mehta"}
             subtitle={"App Developer"}
-            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
+            linkedIn={"https://www.linkedin.com/in/prathamamehta/"}
           />
         </div>
       </div>
@@ -145,19 +150,53 @@ const AboutPage = () => (
             src={kristo}
             title={"Kristo Magi"}
             subtitle={"Advisor"}
-            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
+            linkedIn={"https://www.linkedin.com/in/kristomagi"}
           />
         </div>
         <div className={"col-4"}>
           <ContactCard
             src={kaili}
-            title={"Kaili Kleemier"}
+            title={"Kaili Kleemeier"}
             subtitle={"Advisor"}
-            linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
+            linkedIn={"https://www.linkedin.com/in/kailikleemeier"}
           />
         </div>
         <div className={"col-4"}>
-          <ContactCard src={logo} title={"You"} subtitle={"Work With Us!"} />
+          <ContactCard
+            src={pochiwu}
+            title={"Po Chi Wu"}
+            subtitle={"Advisor"}
+            linkedIn={"https://www.linkedin.com/in/pochiwu"}
+          />
+        </div>
+      </div>
+      <div className={"row container"} style={{ paddingTop: 40 }}>
+        <div className={"col-4"}>
+          <ContactCard
+            src={alan}
+            title={"Alan White"}
+            subtitle={"Advisor"}
+            linkedIn={"https://www.linkedin.com/in/azwhite"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={chon}
+            title={"Chon Tang"}
+            subtitle={"Advisor"}
+            linkedIn={"https://www.linkedin.com/in/chontang"}
+          />
+        </div>
+        <div className={"col-4"}>
+          <ContactCard
+            src={logo}
+            title={"You"}
+            subtitle={"Work With Us!"}
+            style={{ cursor: "pointer" }}
+            onClick={() =>
+              (window.location.href = "https://angel.co/company/lastbit/jobs")
+            }
+          />
         </div>
       </div>
 
@@ -182,7 +221,11 @@ const AboutPage = () => (
       <div className={"row"}>
         <div className={"col-6"}>
           <div className="card">
-            <img src={event1} className={"event_logo"} alt={"bold_awards"} />
+            <img
+              src={boldawards}
+              className={"event_logo"}
+              alt={"bold_awards"}
+            />
             <p className="desc">
               Nominated for Young Acheiver at H-Farm's Bold Awards 2019 in
               Venice
@@ -192,12 +235,31 @@ const AboutPage = () => (
         <div className={"col-6"}>
           <div className="card">
             <img
-              src={event2}
+              src={innoenergy}
               className={"event_logo"}
               alt={"innoenergy_powerup"}
             />
             <p className="desc">
               3rd Place at the InnoEnergy Power up 2019 national finals in Riga
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={"row"}>
+        <div className={"col-6"}>
+          <div className="card">
+            <img src={techcrunch} className={"event_logo"} alt={"tc_disrupt"} />
+            <p className="desc">
+              Official Exhibitor at TechCrunch Disrupt 2019 in San Fransisco
+            </p>
+          </div>
+        </div>
+        <div className={"col-6"}>
+          <div className="card">
+            <img src={money2020} className={"event_logo"} alt={"money2020"} />
+            <p className="desc">
+              Voted as one of the 100 hottest fintech startups at Money2020 2019
+              in Las Vegas
             </p>
           </div>
         </div>
@@ -209,22 +271,63 @@ const AboutPage = () => (
         <h2>Our Investors and Partners</h2>
         <div className={"row"}>
           <div className={"col-4"}>
-            <img src={logo1} className={"partner_logo"} alt={"mongodb"} />
+            <img
+              src={logo1}
+              className={"partner_logo"}
+              alt={"mongodb"}
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("https://www.mongodb.com/startup-accelerator")
+              }
+            />
           </div>
           <div className={"col-4"}>
-            <img src={logo2} className={"partner_logo"} alt={"skydeck"} />
+            <img
+              src={logo2}
+              className={"partner_logo"}
+              alt={"skydeck"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://skydeck.berkeley.edu/")}
+            />
           </div>
           <div className={"col-4"}>
-            <img src={logo3} className={"partner_logo"} alt={"liaa"} />
+            <img
+              src={logo3}
+              className={"partner_logo"}
+              alt={"liaa"}
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open(
+                  "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
+                )
+              }
+            />
           </div>
           <div className={"col-4"}>
-            <img src={logo4} className={"partner_logo"} alt={"buildit"} />
+            <img
+              src={logo4}
+              className={"partner_logo"}
+              alt={"buildit"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.buildit.lv/")}
+            />
           </div>
           <div className={"col-4"}>
-            <img src={logo5} className={"partner_logo"} alt={"brinc"} />
+            <img
+              src={logo5}
+              className={"partner_logo"}
+              alt={"brinc"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.brinc.io/")}
+            />
           </div>
           <div className={"col-4"}>
-            <img src={logo6} className={"partner_logo"} alt={"artesian"} />
+            <img
+              src={logo6}
+              className={"partner_logo"}
+              alt={"artesian"}
+              // style={{ cursor: "pointer" }}
+            />
           </div>
         </div>
       </div>

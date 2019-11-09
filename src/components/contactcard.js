@@ -17,7 +17,7 @@ export default class IconCard extends Component {
     return (
       <div className={"contactCard"}>
         <div className={"contactPic"}>
-          <img src={src} className="contactImage" alt={title} />
+          <img src={src} className="contactImage" alt={title} {...this.props} />
           {linkedIn && (
             <div className={"contactLinkedin"}>
               <a href={linkedIn} target={"_blank"} title={title}>
