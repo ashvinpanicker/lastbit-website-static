@@ -14,7 +14,6 @@ const Partners = () => (
   <div className={"showcase"}>
     <div style={{ textAlign: "center", marginTop: 50 }}>
       <h2 style={{ fontSize: 32 }}>Backed By</h2>
-      <div style={{ padding: "25px 0px" }}></div>
       <div className={"row"}>
         <div className={"col-3"}>
           <img

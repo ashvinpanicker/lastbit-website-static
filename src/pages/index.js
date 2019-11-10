@@ -151,7 +151,11 @@ const IndexPage = () => (
       </div> */}
     </div>
 
-    <div id="subscribe" className={"call-to-action"}>
+    <div
+      id="subscribe"
+      className={"call-to-action"}
+      style={{ padding: "100px 0px" }}
+    >
       <div>
         <div className={"call-to-action__content"}>
           <h2>The world's first Lightning powered consumer payments product</h2>
