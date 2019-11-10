@@ -3,9 +3,17 @@ module.exports = {
     title: `lastbit`,
     description: `Store and Spend Bitcoin, Securely and Instantly`,
     author: `@ashvinpanicker`,
+    siteUrl: `https://www.lastbit.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ["/terms", `/privacy`, `/contact`],
+      },
+    },
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,7 +30,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#FF54AC`,
+        theme_color: `#00204a`,
         display: `minimal-ui`,
         icon: `${__dirname}/static/images/logo.png`, // This path is relative to the root of the site.
       },
@@ -48,18 +56,11 @@ module.exports = {
       },
     },
     {
-    	resolve: `gatsby-plugin-google-analytics`,
-    	options: {
-    		trackingId: "UA-124343236-2",
-    	},
-    },
-    {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        host: 'https://www.lastbit.io',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
-    }
+        trackingId: "UA-124343236-2",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
