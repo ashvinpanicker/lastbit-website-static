@@ -15,7 +15,7 @@ import easy from "../../static/images/easy-icon-2.png"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
 import Partners from "../components/partners"
-import AnimatedText from "../components/textAnimated"
+// import AnimatedText from "../components/textAnimated"
 
 const IndexPage = () => (
   <Layout>
@@ -37,11 +37,6 @@ const IndexPage = () => (
         </p>
         <Subscribe />
         {/* <AnimatedText /> */}
-        <p className={"landing_subtitle"} style={{ margin: "40px 0px" }}>
-          Join the waitlist to be the first to get personal physical cards &
-          IBAN accounts to store, spend & earn Bitcoin over the Lightning
-          Network
-        </p>
       </div>
       {/* <div className={"col-6"}>
           <img src={landing} alt="graphic" className={"landing_img"} />
@@ -157,10 +152,15 @@ const IndexPage = () => (
     </div>
 
     <div id="subscribe" className={"call-to-action"}>
-      <div className={"container"}>
+      <div>
         <div className={"call-to-action__content"}>
           <h2>The world's first Lightning powered consumer payments product</h2>
-          <p>Join the waitlist to be a part of the beta launch</p>
+          <p>
+            {" "}
+            Join the waitlist to be the first to get personal physical cards &
+            IBAN accounts to store, spend & earn Bitcoin over the Lightning
+            Network
+          </p>
         </div>
       </div>
       <div className={"container"}>
