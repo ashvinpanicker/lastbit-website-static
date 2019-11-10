@@ -12,7 +12,6 @@ import logo from "../../static/images/logo.png"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
-import alan from "../../static/images/alan.jpg"
 import pochiwu from "../../static/images/pochiwu.png"
 import chon from "../../static/images/chon.jpg"
 import kristo from "../../static/images/Kristo@3x.png"
@@ -63,19 +62,16 @@ const AboutPage = () => (
       /> */}
       <div className={"targets"}>
         <div className={"title"}>
-          <h2>Our Values</h2>
+          <h2>Our core values building lastbit</h2>
         </div>
 
         <div className={"row"}>
           <div className={"col-6"}>
             <div className={"item"}>
               <img alt={"Information"} src={informationImage} />
-              <h3>Passion</h3>
+              <h3>Spending</h3>
               <p>
-                We at lastbit believe that great things can be acheived only if
-                there is a burning desire to acheive them. Our team comprises of
-                young like minds who strongly believe in a future of financial
-                independence.
+                We believe in a future where crypto can be used as a currency. Driving merchant adoption for direct crypto transactions stems from user demand. We're solving this chicken and egg problem by building this bridge.
               </p>
             </div>
           </div>
@@ -83,12 +79,9 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img alt={"Event"} src={eventImage} />
-              <h3>Perseverance</h3>
+              <h3>Usage</h3>
               <p>
-                When the times get tough, the ones who can keep their heads held
-                high and envision a bright future to come are well rewarded.
-                After all the fruits of success are borne by the ones that put
-                in the hard work to reap them.
+                During our time at Silicon Valley, we learned what it takes to build something that's sustainable for the next billion users. Several FinTech and payment apps today offer a user experience far superior to any bitcoin based application. For mass adoption, features that mimic the simplicity of today's payments UX is imperative. This is what we are building.
               </p>
             </div>
           </div>
@@ -98,9 +91,9 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img alt={"Productivity"} src={ProductivityImage} />
-              <h3>Persistence</h3>
+              <h3>Earning</h3>
               <p>
-                Try and try until you succeed. Never give in even if you bleed.
+                Customer interviews revealed to us the way crypto is viewed by the masses today. We could either build a small product and survive as a small business catering to the needs of a tiny segment or play it big and build a product that could potentially reach millions of users if executed correctly. Bitcoin owners are significantly more comfortable spending Bitcoin that is earned as opposed to Bitcoin that is bought, today.
               </p>
             </div>
           </div>
@@ -108,11 +101,9 @@ const AboutPage = () => (
           <div className={"col-6"}>
             <div className={"item"}>
               <img alt={"Happiness"} src={happinessImage} />
-              <h3>Humour</h3>
+              <h3>Security & Sovereignty</h3>
               <p>
-                It's all about the memes folks. It's always hard to strike a
-                work-life balance, that's why we encourage humour in the
-                workplace to make the environment fun and ever exciting!
+                Bitcoin was created to enable a new method of financial independence and sovereignty. The lightning network brings this vision one step closer to reality. Working with fiat currencies is challenging and subject to regulation. We strive to strike a balance between regulation and independence by building tools that can preserve the core values offered by bitcoin without compromising usage. Contact us to learn more about our Lightning as a Service offering.
               </p>
             </div>
           </div>
