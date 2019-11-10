@@ -12,10 +12,7 @@ import logo from "../../static/images/logo.png"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
-<<<<<<< HEAD
-=======
 import shivam from "../../static/images/shivam.webp"
->>>>>>> 38df2d0bc1e2f535fdc796377ebb08a9adde11b0
 import pochiwu from "../../static/images/pochiwu.png"
 import chon from "../../static/images/chon.jpg"
 import kristo from "../../static/images/Kristo@3x.png"
