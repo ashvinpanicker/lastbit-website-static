@@ -48,7 +48,9 @@ export default class Subscribe extends Component {
             name="email"
           />
           <div className="button">
-            <button onClick={e => this._handleSubmit(e)}>Join the waitlist</button>
+            <button onClick={e => this._handleSubmit(e)}>
+              Join the waitlist
+            </button>
           </div>
         </form>
         <div style={{ paddingTop: 20 }}>
@@ -62,6 +64,7 @@ export default class Subscribe extends Component {
             {this.state.msg}
           </p>
         </div>
+        <p style={{ textAlign: "center" }}>500+ On the waitlist!</p>
       </div>
     )
   }

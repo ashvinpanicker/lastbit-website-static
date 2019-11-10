@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Subscribe from "../components/subscribe"
 // import blob1 from "../../static/images/blob-shape.svg"
 import IconCard from "../components/iconcard"
-import mobilepay from "../../static/images/mobile-pay.png"
+import mobilepay from "../../static/images/card_icon.png"
 import lightningbolt from "../../static/images/lightning_bolt.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
@@ -14,6 +14,8 @@ import easy from "../../static/images/easy-icon-2.png"
 // import video from "../../static/video/bg-01.mp4"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
+import Partners from "../components/partners"
+import AnimatedText from "../components/textAnimated"
 
 const IndexPage = () => (
   <Layout>
@@ -21,17 +23,21 @@ const IndexPage = () => (
 
     <div className={"page-header home"}>
       <div
-        className={"container  call-to-action row landing"}
+        className={"container call-to-action row landing"}
         style={{ background: "#f6f9fc", textAlign: "center" }}
       >
         <h1>
           Spend, Send & Save <span style={{ color: "#ff9900" }}>Bitcoin</span>
         </h1>
-        <p className={"subtitle"} style={{ marginBottom: 40 }}>
+        <p
+          className={"landing_subtitle"}
+          style={{ marginBottom: 40, fontWeight: 600, fontSize: 32 }}
+        >
           Your personal lightning powered Bitcoin debit card
         </p>
         <Subscribe />
-        <p className={"subtitle"} style={{ marginBottom: 40 }}>
+        {/* <AnimatedText /> */}
+        <p className={"landing_subtitle"} style={{ margin: "40px 0px" }}>
           Join the waitlist to be the first to get personal physical cards &
           IBAN accounts to store, spend & earn Bitcoin over the Lightning
           Network
@@ -161,6 +167,8 @@ const IndexPage = () => (
         <Subscribe />
       </div>
     </div>
+
+    <Partners />
   </Layout>
 )
 

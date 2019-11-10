@@ -14,16 +14,19 @@ const AboutPage = () => (
 
     <div
       className={"page-header"}
-      style={{background: "#00204a", padding: "100px 0px" }}
+      style={{ background: "#00204a", padding: "100px 0px" }}
     >
       <div className={"container landing"}>
         <h2 style={{ color: "white" }}>
-          A secure place to store and spend <span style={{ color: "#ff9900" }}>crypto</span>
+          A secure place to store and spend{" "}
+          <span style={{ color: "#ff9900" }}>crypto</span>
         </h2>
         <p className={"lightText"}>
-          Imagine a modern debit card that can store and manage your crypto wallet keys
+          Imagine a modern debit card that can store and manage your crypto
+          wallet keys
           <br />
-          Check out our progress on this with the videos below! Planned for release in 2020.
+          Check out our progress on this with the videos below! Planned for
+          release in 2020.
         </p>
         <div className="video">
           <iframe
@@ -57,7 +60,8 @@ const AboutPage = () => (
                 <p className={"subtitle"}>
                   The Lastbit Go is designed to fit into your pocket. Attach it
                   to your keychain and carry it around to help you make your
-                  daily purchases with crypto. Prototype 2 is designed to fit into your wallet.
+                  daily purchases with crypto. Prototype 2 is designed to fit
+                  into your wallet.
                 </p>
               </div>
             </div>
@@ -69,16 +73,19 @@ const AboutPage = () => (
             <div className={"col-6"}>
               <div className={"feature__content"} style={{ paddingLeft: "7%" }}>
                 <h2>Secure & Open Source</h2>
-                <p className={"subtitle"}>
-                  <ul style={{ listStyle: "disc" }}>
-                    <li>Engineered to keep your crypto safe. Build it yourself</li>
-                    <li>
-                      Built using a commercially available secure element on top of ARM TrustZone
-                    </li>
-                    <li>Isolate your cold & hot wallets on chip, using an SD card</li>
-                    <li>ETA - 2020</li>
-                  </ul>
-                </p>
+                <ul className={"subtitle"} style={{ listStyle: "disc" }}>
+                  <li>
+                    Engineered to keep your crypto safe. Build it yourself
+                  </li>
+                  <li>
+                    Built using a commercially available secure element on top
+                    of ARM TrustZone
+                  </li>
+                  <li>
+                    Isolate your cold & hot wallets on chip, using an SD card
+                  </li>
+                  <li>ETA - 2020</li>
+                </ul>
               </div>
               {/* <img alt={"blob1"} src={blob1} /> */}
             </div>
