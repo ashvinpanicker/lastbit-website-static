@@ -17,7 +17,7 @@ import Features from "../components/features"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="A closed loop bitcoin economy" />
+    <SEO title="Spend, Send & Save Bitcoin on the Lightning Network" />
 
     <div className={"page-header home"}>
       <div

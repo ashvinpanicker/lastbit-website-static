@@ -45,10 +45,17 @@ const AboutPage = () => (
           <span style={{ color: "#ff9900" }}>Bitcoiners</span>
         </h2>
         <p className={"lightText"}>
-          At lastbit, we are on a mission to enable the mass market adoption of
-          cryptocurrencies
+          We want to make it possible to walk into a shop, buy a cup of coffee
+          and pay for it with crypto even if the merchant doesn't accept it -
+          securely and instantly. We believe in the mainstream adoption of
+          crypto-currencies by building intuitive, familiar payments products
+          with immediate benefits to end users.
           <br />
-          Join us in embracing the future of digital payments
+        </p>
+        <p className={"lightText"}>
+          <br />
+          Imagine a complete closed loop Bitcoin economy, i.e. spending, saving
+          and sending Bitcoin without hassle and without compromise.
         </p>
       </div>
     </div>
@@ -123,15 +130,19 @@ const AboutPage = () => (
 
     <div className={"showcase"}>
       <h5 style={{ fontSize: "24px", color: "#00204a" }}>
-        We are a team of developers and friends who studied together and now
-        live and work together
+        We are a team of developers and friends that studied together and now
+        build lastbit together
       </h5>
+      <p>
+        <a href="https://medium.com/lastbitpay">Check out our blog </a>to read
+        our story
+      </p>
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
             src={pb}
             title={"Prashanth B"}
-            subtitle={"Founder/CEO"}
+            subtitle={"Co-Founder & CEO"}
             linkedIn={"https://www.linkedin.com/in/pbio"}
           />
         </div>

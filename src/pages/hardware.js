@@ -14,21 +14,21 @@ const AboutPage = () => (
 
     <div
       className={"page-header"}
-      style={{ background: "#00204a", padding: "100px 0px" }}
+      style={{background: "#00204a", padding: "100px 0px" }}
     >
       <div className={"container landing"}>
         <h2 style={{ color: "white" }}>
-          The Hardware wallet that lets you spend
+          A secure place to store and spend <span style={{ color: "#ff9900" }}>crypto</span>
         </h2>
         <p className={"lightText"}>
-          Welcome to the future
+          Imagine a modern debit card that can store and manage your crypto wallet keys
           <br />
-          Join us in embracing the future of digital payments
+          Check out our progress on this with the videos below! Planned for release in 2020.
         </p>
         <div className="video">
           <iframe
             className="resp-iframe"
-            src={"https://www.youtube.com/embed/OecjlgoTRnA"}
+            src={"https://www.youtube.com/embed/zhVrJugGYFo"}
             title={"junk"}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
@@ -57,7 +57,7 @@ const AboutPage = () => (
                 <p className={"subtitle"}>
                   The Lastbit Go is designed to fit into your pocket. Attach it
                   to your keychain and carry it around to help you make your
-                  daily purchases with crypto!
+                  daily purchases with crypto. Prototype 2 is designed to fit into your wallet.
                 </p>
               </div>
             </div>
@@ -68,15 +68,15 @@ const AboutPage = () => (
           <div className={"row row_card"} style={{ borderRadius: 25 }}>
             <div className={"col-6"}>
               <div className={"feature__content"} style={{ paddingLeft: "7%" }}>
-                <h2>Security Redefined</h2>
+                <h2>Secure & Open Source</h2>
                 <p className={"subtitle"}>
                   <ul style={{ listStyle: "disc" }}>
-                    <li>Engineered to keep your crypto safe.</li>
+                    <li>Engineered to keep your crypto safe. Build it yourself</li>
                     <li>
-                      Built with an EEAL5+ certified secure element on top of
-                      Arm Trust Zone Technology
+                      Built using a commercially available secure element on top of ARM TrustZone
                     </li>
-                    <li>Split your wallets with SD card wallet isolation.</li>
+                    <li>Isolate your cold & hot wallets on chip, using an SD card</li>
+                    <li>ETA - 2020</li>
                   </ul>
                 </p>
               </div>
@@ -112,6 +112,18 @@ const AboutPage = () => (
             </div>
           </div> */}
           <br />
+        </div>
+        <div className="video">
+          <iframe
+            className="resp-iframe"
+            src={"https://www.youtube.com/embed/mYgvu-Lg3eE"}
+            title={"junk"}
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            frameBorder="0"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+          />
         </div>
       </div>
     </div>
