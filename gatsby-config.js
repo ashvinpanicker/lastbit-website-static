@@ -47,12 +47,19 @@ module.exports = {
           "https://lastbit.us18.list-manage.com/subscribe/post?u=7063ad67b1481fb79537c8391&amp;id=ec0b596da5",
       },
     },
-    // {
-    // 	resolve: `gatsby-plugin-google-analytics`,
-    // 	options: {
-    // 		trackingId: "UA-124343236-2",
-    // 	},
-    // },
+    {
+    	resolve: `gatsby-plugin-google-analytics`,
+    	options: {
+    		trackingId: "UA-124343236-2",
+    	},
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.lastbit.io',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
