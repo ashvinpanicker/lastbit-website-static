@@ -12,7 +12,7 @@ import logo from "../../static/images/logo.png"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
-import alan from "../../static/images/alan.jpg"
+import shivam from "../../static/images/shivam.webp"
 import pochiwu from "../../static/images/pochiwu.png"
 import chon from "../../static/images/chon.jpg"
 import kristo from "../../static/images/Kristo@3x.png"
@@ -21,12 +21,15 @@ import boldawards from "../../static/images/boldawards.svg"
 import innoenergy from "../../static/images/innoenergy.svg"
 import techcrunch from "../../static/images/techcrunch.png"
 import money2020 from "../../static/images/money2020.png"
-import logo1 from "../../static/images/Logo1.svg"
-import logo2 from "../../static/images/Logo2.svg"
-import logo3 from "../../static/images/Logo3.svg"
-import logo4 from "../../static/images/Logo4.svg"
-import logo5 from "../../static/images/Logo5.svg"
-import logo6 from "../../static/images/Logo6.svg"
+import mongodb from "../../static/images/Logo1.svg"
+// import logo2 from "../../static/images/Logo2.svg"
+import liaa from "../../static/images/Logo3.svg"
+import buildit from "../../static/images/Logo4.svg"
+import brinc from "../../static/images/Logo5.svg"
+import artesian from "../../static/images/Logo6.svg"
+import skydeck from "../../static/images/skydeck.png"
+import hatch from "../../static/images/hatch.png"
+import fulgur from "../../static/images/fulgur-logo.svg"
 
 const AboutPage = () => (
   <Layout>
@@ -152,9 +155,7 @@ const AboutPage = () => (
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
-            src={
-              "https://angel.co/cdn-cgi/image/width=200,height=200,format=auto,fit=cover/https://d1qb2nb5cznatu.cloudfront.net/users/7890980-original?1566207977"
-            }
+            src={shivam}
             title={"Shivam Dev"}
             subtitle={"App Developer"}
             linkedIn={"https://www.linkedin.com/in/skdev24"}
@@ -184,14 +185,6 @@ const AboutPage = () => (
             title={"Po Chi Wu"}
             subtitle={"Advisor"}
             linkedIn={"https://www.linkedin.com/in/pochiwu"}
-          />
-        </div>
-        <div className={"col-4"}>
-          <ContactCard
-            src={alan}
-            title={"Alan White"}
-            subtitle={"Advisor"}
-            linkedIn={"https://www.linkedin.com/in/azwhite"}
           />
         </div>
         <div className={"col-4"}>
@@ -270,10 +263,59 @@ const AboutPage = () => (
     <div className={"showcase"}>
       <div style={{ textAlign: "center", marginTop: 50 }}>
         <h2>Our Investors and Partners</h2>
+        <div style={{ padding: "25px 0px" }}></div>
         <div className={"row"}>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo1}
+              src={fulgur}
+              className={"partner_logo"}
+              alt={"fulgur_ventures"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://fulgur.ventures/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={skydeck}
+              className={"partner_logo"}
+              alt={"skydeck"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://skydeck.berkeley.edu/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={brinc}
+              className={"partner_logo"}
+              alt={"brinc"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.brinc.io/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={buildit}
+              className={"partner_logo"}
+              alt={"buildit"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.buildit.lv/")}
+            />
+          </div>
+        </div>
+        <div style={{ padding: "25px 0px" }}></div>
+        <div className={"row"}>
+          <div className={"col-3"}>
+            <img
+              src={hatch}
+              className={"partner_logo"}
+              alt={"digital_ocean"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.digitalocean.com/hatch/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={mongodb}
               className={"partner_logo"}
               alt={"mongodb"}
               style={{ cursor: "pointer" }}
@@ -282,18 +324,9 @@ const AboutPage = () => (
               }
             />
           </div>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo2}
-              className={"partner_logo"}
-              alt={"skydeck"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://skydeck.berkeley.edu/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo3}
+              src={liaa}
               className={"partner_logo"}
               alt={"liaa"}
               style={{ cursor: "pointer" }}
@@ -304,30 +337,9 @@ const AboutPage = () => (
               }
             />
           </div>
-        </div>
-        <div style={{ padding: "25px 0px" }}></div>
-        <div className={"row"}>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo4}
-              className={"partner_logo"}
-              alt={"buildit"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://www.buildit.lv/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo5}
-              className={"partner_logo"}
-              alt={"brinc"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://www.brinc.io/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo6}
+              src={artesian}
               className={"partner_logo"}
               alt={"artesian"}
               // style={{ cursor: "pointer" }}
