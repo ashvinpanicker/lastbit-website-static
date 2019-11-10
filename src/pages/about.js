@@ -12,6 +12,10 @@ import logo from "../../static/images/logo.png"
 import pb from "../../static/images/PB@3x.png"
 import ash from "../../static/images/Ashvin@3x.png"
 import pratham from "../../static/images/Pratham@3x.png"
+<<<<<<< HEAD
+=======
+import shivam from "../../static/images/shivam.webp"
+>>>>>>> 38df2d0bc1e2f535fdc796377ebb08a9adde11b0
 import pochiwu from "../../static/images/pochiwu.png"
 import chon from "../../static/images/chon.jpg"
 import kristo from "../../static/images/Kristo@3x.png"
@@ -20,12 +24,15 @@ import boldawards from "../../static/images/boldawards.svg"
 import innoenergy from "../../static/images/innoenergy.svg"
 import techcrunch from "../../static/images/techcrunch.png"
 import money2020 from "../../static/images/money2020.png"
-import logo1 from "../../static/images/Logo1.svg"
-import logo2 from "../../static/images/Logo2.svg"
-import logo3 from "../../static/images/Logo3.svg"
-import logo4 from "../../static/images/Logo4.svg"
-import logo5 from "../../static/images/Logo5.svg"
-import logo6 from "../../static/images/Logo6.svg"
+import mongodb from "../../static/images/Logo1.svg"
+// import logo2 from "../../static/images/Logo2.svg"
+import liaa from "../../static/images/Logo3.svg"
+import buildit from "../../static/images/Logo4.svg"
+import brinc from "../../static/images/Logo5.svg"
+import artesian from "../../static/images/Logo6.svg"
+import skydeck from "../../static/images/skydeck.png"
+import hatch from "../../static/images/hatch.png"
+import fulgur from "../../static/images/fulgur-logo.svg"
 
 const AboutPage = () => (
   <Layout>
@@ -41,12 +48,17 @@ const AboutPage = () => (
           <span style={{ color: "#ff9900" }}>Bitcoiners</span>
         </h2>
         <p className={"lightText"}>
-          We want to make it possible to walk into a shop, buy a cup of coffee and pay for it with crypto even if the merchant doesn't accept it - securely and instantly. We believe in the mainstream adoption of crypto-currencies by building intuitive, familiar payments products with immediate benefits to end users.
+          We want to make it possible to walk into a shop, buy a cup of coffee
+          and pay for it with crypto even if the merchant doesn't accept it -
+          securely and instantly. We believe in the mainstream adoption of
+          crypto-currencies by building intuitive, familiar payments products
+          with immediate benefits to end users.
           <br />
-          </p>
-          <p className={"lightText"}>
+        </p>
+        <p className={"lightText"}>
           <br />
-          Imagine a complete closed loop Bitcoin economy, i.e. spending, saving and sending Bitcoin without hassle and without compromise.
+          Imagine a complete closed loop Bitcoin economy, i.e. spending, saving
+          and sending Bitcoin without hassle and without compromise.
         </p>
       </div>
     </div>
@@ -113,10 +125,12 @@ const AboutPage = () => (
 
     <div className={"showcase"}>
       <h5 style={{ fontSize: "24px", color: "#00204a" }}>
-        We are a team of developers and friends that studied together and now build lastbit together
+        We are a team of developers and friends that studied together and now
+        build lastbit together
       </h5>
       <p>
-      <a href="https://medium.com/lastbitpay">Check out our blog </a>to read our story
+        <a href="https://medium.com/lastbitpay">Check out our blog </a>to read
+        our story
       </p>
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
@@ -147,9 +161,7 @@ const AboutPage = () => (
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
           <ContactCard
-            src={
-              "https://angel.co/cdn-cgi/image/width=200,height=200,format=auto,fit=cover/https://d1qb2nb5cznatu.cloudfront.net/users/7890980-original?1566207977"
-            }
+            src={shivam}
             title={"Shivam Dev"}
             subtitle={"App Developer"}
             linkedIn={"https://www.linkedin.com/in/skdev24"}
@@ -181,7 +193,6 @@ const AboutPage = () => (
             linkedIn={"https://www.linkedin.com/in/pochiwu"}
           />
         </div>
-
         <div className={"col-4"}>
           <ContactCard
             src={chon}
@@ -258,10 +269,59 @@ const AboutPage = () => (
     <div className={"showcase"}>
       <div style={{ textAlign: "center", marginTop: 50 }}>
         <h2>Our Investors and Partners</h2>
+        <div style={{ padding: "25px 0px" }}></div>
         <div className={"row"}>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo1}
+              src={fulgur}
+              className={"partner_logo"}
+              alt={"fulgur_ventures"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://fulgur.ventures/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={skydeck}
+              className={"partner_logo"}
+              alt={"skydeck"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://skydeck.berkeley.edu/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={brinc}
+              className={"partner_logo"}
+              alt={"brinc"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.brinc.io/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={buildit}
+              className={"partner_logo"}
+              alt={"buildit"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.buildit.lv/")}
+            />
+          </div>
+        </div>
+        <div style={{ padding: "25px 0px" }}></div>
+        <div className={"row"}>
+          <div className={"col-3"}>
+            <img
+              src={hatch}
+              className={"partner_logo"}
+              alt={"digital_ocean"}
+              style={{ cursor: "pointer" }}
+              onClick={() => window.open("https://www.digitalocean.com/hatch/")}
+            />
+          </div>
+          <div className={"col-3"}>
+            <img
+              src={mongodb}
               className={"partner_logo"}
               alt={"mongodb"}
               style={{ cursor: "pointer" }}
@@ -270,18 +330,9 @@ const AboutPage = () => (
               }
             />
           </div>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo2}
-              className={"partner_logo"}
-              alt={"skydeck"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://skydeck.berkeley.edu/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo3}
+              src={liaa}
               className={"partner_logo"}
               alt={"liaa"}
               style={{ cursor: "pointer" }}
@@ -292,30 +343,9 @@ const AboutPage = () => (
               }
             />
           </div>
-        </div>
-        <div style={{ padding: "25px 0px" }}></div>
-        <div className={"row"}>
-          <div className={"col-4"}>
+          <div className={"col-3"}>
             <img
-              src={logo4}
-              className={"partner_logo"}
-              alt={"buildit"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://www.buildit.lv/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo5}
-              className={"partner_logo"}
-              alt={"brinc"}
-              style={{ cursor: "pointer" }}
-              onClick={() => window.open("https://www.brinc.io/")}
-            />
-          </div>
-          <div className={"col-4"}>
-            <img
-              src={logo6}
+              src={artesian}
               className={"partner_logo"}
               alt={"artesian"}
               // style={{ cursor: "pointer" }}

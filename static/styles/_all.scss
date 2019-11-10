@@ -654,11 +654,17 @@ body {
     font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
+    line-height: 1.6;
   }
 
   .img-responsive {
     width: 100%;
     height: auto;
+  }
+
+  .partner_logo {
+    max-height: 110px;
+    padding: 20px;
   }
 
   .showcase {
