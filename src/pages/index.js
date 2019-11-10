@@ -28,11 +28,13 @@ const IndexPage = () => (
           Spend, Send & Save <span style={{ color: "#ff9900" }}>Bitcoin</span>
         </h1>
         <p className={"subtitle"} style={{ marginBottom: 40 }}>
-          Your personal lightning powered Bitcoin debit card 
+          Your personal lightning powered Bitcoin debit card
         </p>
         <Subscribe />
         <p className={"subtitle"} style={{ marginBottom: 40 }}>
-          Join the waitlist to be the first to get personal physical cards & IBAN accounts to store, spend & earn Bitcoin over the Lightning Network
+          Join the waitlist to be the first to get personal physical cards &
+          IBAN accounts to store, spend & earn Bitcoin over the Lightning
+          Network
         </p>
       </div>
       {/* <div className={"col-6"}>
@@ -42,7 +44,7 @@ const IndexPage = () => (
     </div>
     <section className={"sky"}>
       <div className={"container"} style={{ marginBottom: 50, marginTop: 50 }}>
-        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
+        <h2 className={"section_title"}>
           Towards a closed loop Bitcoin economy
         </h2>
         <img
@@ -103,9 +105,7 @@ const IndexPage = () => (
 
     <section className={"features__section"}>
       <div className={"container"}>
-        <h2 style={{ fontSize: 40, color: "#444", textAlign: "center" }}>
-          Lastbit mobile (iOS & Android)
-        </h2>
+        <h2 className={"section_title"}>Lastbit mobile (iOS & Android)</h2>
         <Features />
       </div>
     </section>
@@ -115,9 +115,10 @@ const IndexPage = () => (
         Try our testnet Bitcoin & Lightning wallet
       </h4>
       <p className={"showcase_desc"}>
-        Signup below to join the waitlist to use our completely new application featuring virtual debit cards
+        Signup below to join the waitlist to use our completely new application
+        featuring virtual debit cards
       </p>
-      <div className={"row container"}>
+      <div className={"row container"} style={{ paddingBottom: 60 }}>
         <img
           src={google}
           alt={"playstore"}
@@ -153,9 +154,7 @@ const IndexPage = () => (
       <div className={"container"}>
         <div className={"call-to-action__content"}>
           <h2>The world's first Lightning powered consumer payments product</h2>
-          <p>
-              Join the waitlist to be a part of the beta launch
-          </p>
+          <p>Join the waitlist to be a part of the beta launch</p>
         </div>
       </div>
       <div className={"container"}>
