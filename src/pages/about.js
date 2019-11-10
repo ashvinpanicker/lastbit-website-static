@@ -39,7 +39,7 @@ const AboutPage = () => (
       className={"page-header"}
       style={{ background: "#00204a", padding: "100px 0px" }}
     >
-      <div className={"container landing"}>
+      <div className={"container"} style={{ paddingBottom: 80 }}>
         <h2 style={{ color: "white" }}>
           By <span style={{ color: "#ff9900" }}>Bitcoiners</span>, for{" "}
           <span style={{ color: "#ff9900" }}>Bitcoiners</span>
@@ -134,8 +134,17 @@ const AboutPage = () => (
         build lastbit together
       </h5>
       <p>
-        <a href="https://medium.com/lastbitpay">Check out our blog </a>to read
-        our story
+        <a
+          href="https://medium.com/lastbitpay"
+          style={{
+            textDecoration: "underline",
+            color: "blue",
+            textDecorationColor: "blue",
+          }}
+        >
+          Check out our blog
+        </a>{" "}
+        to read our story
       </p>
       <div className={"row container"} style={{ paddingTop: 40 }}>
         <div className={"col-4"}>
