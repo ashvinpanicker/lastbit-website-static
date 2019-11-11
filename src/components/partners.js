@@ -6,7 +6,7 @@ import liaa from "../../static/images/Logo3.svg"
 import buildit from "../../static/images/Logo4.svg"
 import brinc from "../../static/images/Logo5.svg"
 import artesian from "../../static/images/Logo6.svg"
-import skydeck from "../../static/images/skydeck.png"
+import skydeck from "../../static/images/skydeck1.png"
 import hatch from "../../static/images/hatch.png"
 import fulgur from "../../static/images/fulgur-logo.svg"
 

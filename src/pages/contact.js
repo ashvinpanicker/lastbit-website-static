@@ -23,7 +23,7 @@ const ContactPage = () => (
           <div className={"col-5"}>
             <div className={"contact-items"}>
               <p>Plain email is the best way to contact us.</p>
-              <h2>hello@lastbit.io</h2>
+              <h2>info@lastbit.io</h2>
             </div>
           </div>
         </div>

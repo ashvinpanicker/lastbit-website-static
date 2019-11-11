@@ -11,7 +11,7 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/lb-ln.svg"
+import logo from "../../static/images/lb-ln.png"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconInstagram from "../../static/images/icon-instagram.svg"
