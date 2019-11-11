@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Subscribe from "../components/subscribe"
-// import blob1 from "../../static/images/blob-shape.svg"
 import IconCard from "../components/iconcard"
 import mobilepay from "../../static/images/card_icon.png"
 import lightningbolt from "../../static/images/lightning_bolt.png"
@@ -11,7 +10,6 @@ import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
 import landing from "../../static/images/screens.png"
 import easy from "../../static/images/easy-icon-2.png"
-// import video from "../../static/video/bg-01.mp4"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
 import Partners from "../components/partners"
@@ -38,9 +36,6 @@ const IndexPage = () => (
         <Subscribe />
         {/* <AnimatedText /> */}
       </div>
-      {/* <div className={"col-6"}>
-          <img src={landing} alt="graphic" className={"landing_img"} />
-        </div> */}
       <img src={landing} alt="screens" className={"landing_img"} />
     </div>
     <section className={"sky"}>
@@ -133,22 +128,6 @@ const IndexPage = () => (
           style={{ maxWidth: "300px", margin: 20 }}
         />
       </div>
-
-      {/* Responsive iphone https://codepen.io/dani3lsz/pen/MEZjeo?editors=1100 */}
-      {/* <div style={{ display: "flex", justifyContent: "center" }}>
-        <div className="device device-iphone-x">
-          <div className="device-frame">
-            <video className="device-content" muted="muted" autoplay="" loop="">
-              <source src={video} type="video/mp4" />
-            </video>
-          </div>
-          <div className="device-stripe"></div>
-          <div className="device-header"></div>
-          <div className="device-sensors"></div>
-          <div className="device-btns"></div>
-          <div className="device-power"></div>
-        </div>
-      </div> */}
     </div>
 
     <div
