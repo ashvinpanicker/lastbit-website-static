@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -12,11 +12,18 @@
   font-weight: 400;
   src: url("Inter-Regular.woff2") format("woff2"),
     url("Inter-Regular.woff") format("woff");
+} */
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("OpenSans-Regular.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: url("OpenSans-Regular.ttf") format("ttf");
+    font-family: "Century Gothic", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("CenturyGothic.ttf") format("ttf");
 }
