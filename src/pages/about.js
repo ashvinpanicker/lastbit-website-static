@@ -31,10 +31,10 @@ const AboutPage = () => (
             style={{ background: "#00204a", padding: "100px 0px" }}
         >
             <div className={"container"} style={{ paddingBottom: 80 }}>
-                <h2 style={{ color: "white" }}>
+                <h1 style={{ color: "white" }}>
                     By <span style={{ color: "#ff9900" }}>Bitcoiners</span>, for{" "}
                     <span style={{ color: "#ff9900" }}>Bitcoiners</span>
-                </h2>
+                </h1>
                 <p className={"lightText"}>
                     We want to make it possible to walk into a shop, buy a cup
                     of coffee and pay for it with crypto even if the merchant

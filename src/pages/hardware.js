@@ -17,10 +17,10 @@ const AboutPage = () => (
             style={{ background: "#00204a", padding: "100px 0px" }}
         >
             <div className={"container landing"}>
-                <h2 style={{ color: "white" }}>
+                <h1 style={{ color: "white" }}>
                     A secure place to store and spend{" "}
                     <span style={{ color: "#ff9900" }}>crypto</span>
-                </h2>
+                </h1>
                 <p className={"lightText"}>
                     Imagine a modern debit card that can store and manage your
                     crypto wallet keys
