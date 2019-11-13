@@ -2,7 +2,7 @@ import React from "react"
 
 import mongodb from "../../static/images/Logo1.svg"
 // import logo2 from "../../static/images/Logo2.svg"
-import liaa from "../../static/images/Logo3.svg"
+import liaa from "../../static/images/liaa4.jpg"
 import buildit from "../../static/images/Logo4.svg"
 import brinc from "../../static/images/Logo5.svg"
 import artesian from "../../static/images/Logo6.svg"
