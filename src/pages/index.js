@@ -40,37 +40,37 @@ const IndexPage = () => (
             <img src={landing} alt="screens" className={"landing_img"} />
         </div>
         <section className={"sky"}>
+            <h2 className={"section_title"}>
+                Towards a closed loop Bitcoin economy
+            </h2>
+            <img
+                src={zeus}
+                alt={"Store, Send, Spend Bitcoin Instantly"}
+                className={"zeus"}
+            />
+            <div className="x1">
+                <div className="cloud"></div>
+            </div>
+
+            <div className="x2">
+                <div className="cloud"></div>
+            </div>
+
+            <div className="x3">
+                <div className="cloud"></div>
+            </div>
+
+            <div className="x4">
+                <div className="cloud"></div>
+            </div>
+
+            <div className="x5">
+                <div className="cloud"></div>
+            </div>
             <div
                 className={"container"}
                 style={{ marginBottom: 50, marginTop: 50 }}
             >
-                <h2 className={"section_title"}>
-                    Towards a closed loop Bitcoin economy
-                </h2>
-                <img
-                    src={zeus}
-                    alt={"Store, Send, Spend Bitcoin Instantly"}
-                    className={"zeus"}
-                />
-                <div className="x1">
-                    <div className="cloud"></div>
-                </div>
-
-                <div className="x2">
-                    <div className="cloud"></div>
-                </div>
-
-                <div className="x3">
-                    <div className="cloud"></div>
-                </div>
-
-                <div className="x4">
-                    <div className="cloud"></div>
-                </div>
-
-                <div className="x5">
-                    <div className="cloud"></div>
-                </div>
                 <div className={"row"}>
                     <div className={"col-4"}>
                         <IconCard
