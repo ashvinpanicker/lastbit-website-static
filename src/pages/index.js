@@ -13,6 +13,7 @@ import easy from "../../static/images/easy-icon-2.png"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
 import Partners from "../components/partners"
+import Backers from "../components/backers"
 // import AnimatedText from "../components/textAnimated"
 
 const IndexPage = () => (
@@ -161,6 +162,7 @@ const IndexPage = () => (
         </div>
 
         <Partners />
+        <Backers />
     </Layout>
 )
 
