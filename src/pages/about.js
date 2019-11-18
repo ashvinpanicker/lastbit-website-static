@@ -259,7 +259,7 @@ const AboutPage = () => (
                             alt={"bold_awards"}
                         />
                         <p className="desc">
-                            Nominated for Young Acheiver at H-Farm's Bold Awards
+                            Nominated for Young Achiever at H-Farm's Bold Awards
                             2019 in Venice
                         </p>
                     </div>
@@ -288,7 +288,7 @@ const AboutPage = () => (
                         />
                         <p className="desc">
                             Official Exhibitor at TechCrunch Disrupt 2019 in San
-                            Fransisco
+                            Francisco
                         </p>
                     </div>
                 </div>
@@ -301,7 +301,7 @@ const AboutPage = () => (
                         />
                         <p className="desc">
                             Voted as one of the 100 hottest fintech startups at
-                            Money2020 2019 in Las Vegas
+                            Money 20/20 2019 in Las Vegas
                         </p>
                     </div>
                 </div>
