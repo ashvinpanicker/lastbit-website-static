@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +9,7 @@ import mobilepay from "../../static/images/card_icon.png"
 import lightningbolt from "../../static/images/lightning_bolt.png"
 import google from "../../static/images/google.png"
 import apple from "../../static/images/apple.png"
-import landing from "../../static/images/screens.png"
+import landing from "../../static/images/landing.png"
 import easy from "../../static/images/easy-icon-2.png"
 import zeus from "../../static/images/zeus.gif"
 import Features from "../components/features"
@@ -28,6 +29,13 @@ const IndexPage = () => (
                     Spend, Send & Save{" "}
                     <span style={{ color: "#ff9900" }}>Bitcoin</span>
                 </h1>
+                <Link to="/#features" title={"lastbit"}>
+                    <img
+                        src={landing}
+                        alt="screens"
+                        className={"landing_img hover-shadow"}
+                    />
+                </Link>
                 <p
                     className={"landing_subtitle"}
                     style={{ marginBottom: 40, fontWeight: 600, fontSize: 32 }}
@@ -37,12 +45,14 @@ const IndexPage = () => (
                 <Subscribe />
                 {/* <AnimatedText /> */}
             </div>
-            <img src={landing} alt="screens" className={"landing_img"} />
         </div>
         <section className={"sky"}>
             <h2 className={"section_title"}>
                 Towards a closed loop Bitcoin economy
             </h2>
+            <p className={"section_subtitle"}>
+                The complete financial suite for bitcoin
+            </p>
             <img
                 src={zeus}
                 alt={"Store, Send, Spend Bitcoin Instantly"}
@@ -67,10 +77,7 @@ const IndexPage = () => (
             <div className="x5">
                 <div className="cloud"></div>
             </div>
-            <div
-                className={"container"}
-                style={{ marginBottom: 50, marginTop: 50 }}
-            >
+            <div className={"container"}>
                 <div className={"row"}>
                     <div className={"col-4"}>
                         <IconCard
@@ -104,7 +111,7 @@ const IndexPage = () => (
         </section>
 
         <section className={"features__section"}>
-            <div className={"container"}>
+            <div className={"container"} id={"features"}>
                 <h2 className={"section_title"}>
                     Lastbit mobile (iOS & Android)
                 </h2>
