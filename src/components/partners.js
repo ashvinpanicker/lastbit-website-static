@@ -1,124 +1,46 @@
 import React from "react"
 
-import mongodb from "../../static/images/Logo1.svg"
-// import logo2 from "../../static/images/Logo2.svg"
-import liaa from "../../static/images/liaa4.jpg"
-import buildit from "../../static/images/Logo4.svg"
-import brinc from "../../static/images/Logo5.svg"
-import artesian from "../../static/images/Logo6.svg"
-import skydeck from "../../static/images/skydeck1.png"
-import charlie from "../../static/images/charlie.png"
-import hatch from "../../static/images/hatch.png"
-import fulgur from "../../static/images/fulgur-logo.svg"
+import weavr from "../../static/images/weavr.svg"
+import bitlocus from "../../static/images/bitlocus.png"
 
 const Partners = () => (
     <div className={"showcase"}>
         <div style={{ textAlign: "center", marginTop: 50 }}>
-            <h2 style={{ fontSize: 32 }}>Backed By</h2>
-            <div style={{ padding: "25px 0px" }}></div>
+            <h2 style={{ fontSize: 32 }}>Our Partners</h2>
             <div className={"row"}>
-                <div className={"col-4"}>
+                <div className={"col-6"}>
                     <img
-                        src={fulgur}
+                        src={weavr}
                         className={"partner_logo"}
-                        alt={"fulgur_ventures"}
+                        alt={"weavr_mastercard"}
                         style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://fulgur.ventures/")}
+                        onClick={() => window.open("https://www.weavr.io/")}
                     />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={skydeck}
-                        className={"partner_logo"}
-                        alt={"skydeck"}
-                        style={{ cursor: "pointer", padding: "5px 0 0 0" }}
-                        onClick={() =>
-                            window.open("https://skydeck.berkeley.edu/")
-                        }
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={charlie}
-                        className={"partner_logo"}
-                        alt={"charlie_lee"}
+                    <p
                         style={{
-                            cursor: "pointer",
-                            paddingTop: 30,
-                            maxWidth: 200,
+                            textAlign: "center",
+                            fontFamily: "Century Gothic",
                         }}
-                        onClick={() =>
-                            window.open("https://twitter.com/satoshilite")
-                        }
-                    />
+                    >
+                        A registered ISO for Mastercard®
+                    </p>
                 </div>
-            </div>
-            <div className={"row"}>
-                <div className={"col-4"}>
+                <div className={"col-6"}>
                     <img
-                        src={buildit}
+                        src={bitlocus}
                         className={"partner_logo"}
-                        alt={"buildit"}
+                        alt={"bitlocus_exchange"}
                         style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.buildit.lv/")}
+                        onClick={() => window.open("https://bitlocus.com/")}
                     />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={brinc}
-                        className={"partner_logo"}
-                        alt={"brinc"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.brinc.io/")}
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={artesian}
-                        className={"partner_logo"}
-                        alt={"artesian"}
-                        // style={{ cursor: "pointer" }}
-                    />
-                </div>
-            </div>
-
-            <div className={"row"}>
-                <div className={"col-4"}>
-                    <img
-                        src={hatch}
-                        className={"partner_logo"}
-                        alt={"digital_ocean"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                            window.open("https://www.digitalocean.com/hatch/")
-                        }
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={mongodb}
-                        className={"partner_logo"}
-                        alt={"mongodb"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                            window.open(
-                                "https://www.mongodb.com/startup-accelerator"
-                            )
-                        }
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={liaa}
-                        className={"partner_logo"}
-                        alt={"liaa"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() =>
-                            window.open(
-                                "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
-                            )
-                        }
-                    />
+                    <p
+                        style={{
+                            textAlign: "center",
+                            fontFamily: "Century Gothic",
+                        }}
+                    >
+                        Bitcoin exchange partner
+                    </p>
                 </div>
             </div>
             <div style={{ padding: "25px 0px" }}></div>
