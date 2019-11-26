@@ -112,7 +112,7 @@ const Backers = () => (
                         src={liaa}
                         className={"partner_logo"}
                         alt={"liaa"}
-                        style={{ cursor: "pointer" }}
+                        style={{ cursor: "pointer", maxWidth: 300 }}
                         onClick={() =>
                             window.open(
                                 "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"

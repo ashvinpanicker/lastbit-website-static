@@ -5,7 +5,7 @@ import bitlocus from "../../static/images/bitlocus.png"
 
 const Partners = () => (
     <div className={"showcase"}>
-        <div style={{ textAlign: "center", marginTop: 50 }}>
+        <div style={{ textAlign: "center" }}>
             <h2 style={{ fontSize: 32 }}>Our Partners</h2>
             <div className={"row"}>
                 <div className={"col-6"}>

@@ -211,7 +211,7 @@ body {
     .section_subtitle {
         font-size: 22px;
         text-align: center;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         @media screen and (max-width: $break-small) {
             font-size: 24px;
         }
@@ -796,9 +796,9 @@ body {
     -webkit-transform: scale(0.65);
     -moz-transform: scale(0.65);
     transform: scale(0.65);
-    @media screen and (max-width: $break-small) {
-        visibility: hidden;
-    }
+    // @media screen and (max-width: $break-small) {
+    //     visibility: hidden;
+    // }
 }
 
 .x2 {
@@ -829,6 +829,9 @@ body {
     -webkit-transform: scale(0.4);
     -moz-transform: scale(0.4);
     transform: scale(0.4);
+    @media screen and (max-width: $break-small) {
+        display: none;
+    }
 }
 
 .x5 {
@@ -839,6 +842,9 @@ body {
     -webkit-transform: scale(0.55);
     -moz-transform: scale(0.55);
     transform: scale(0.55);
+    @media screen and (max-width: $break-small) {
+        display: none;
+    }
 }
 
 /* OBJECTS */
