@@ -2,14 +2,14 @@ import React from "react"
 
 import ContactCard from "../components/contactcard"
 import logo from "../../static/images/logo.png"
-import pb from "../../static/images/team/color/pb.png"
-import ash from "../../static/images/team/color/ash.png"
-import pratham from "../../static/images/team/color/Pratham@3x.png"
-import shivam from "../../static/images/team/color/shivam.png"
-import pochiwu from "../../static/images/team/color/pochiwu.png"
-import chon from "../../static/images/team/color/chon.jpg"
-import kristo from "../../static/images/team/color/Kristo@3x.png"
-import kaili from "../../static/images/team/color/Kaili@3x.png"
+import pb from "../../static/images/team/grayscale/pb.png"
+import ash from "../../static/images/team/grayscale/ash.png"
+import pratham from "../../static/images/team/grayscale/pratham.png"
+import shivam from "../../static/images/team/grayscale/shivam.png"
+import pochiwu from "../../static/images/team/grayscale/pochiwu.png"
+import chon from "../../static/images/team/grayscale/chon.jpg"
+import kristo from "../../static/images/team/grayscale/kristo.png"
+import kaili from "../../static/images/team/grayscale/kaili.png"
 
 const Team = () => (
     <div className={"showcase"}>
