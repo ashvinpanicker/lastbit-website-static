@@ -9,11 +9,11 @@ export default class Features extends Component {
         img: bitcoin,
     }
 
-    //   preloadImage(url) {
-    //     var img = new Image()
-    //     img.src = url;
-    //     return img;
-    // }
+    preloadImage(url) {
+        var img = new Image()
+        img.src = url
+        return img
+    }
 
     changeImage(img) {
         var bars = document.getElementsByClassName("bar")
@@ -37,6 +37,12 @@ export default class Features extends Component {
                 this.setState({ img: this.state.images[0] })
                 break
         }
+    }
+
+    componentDidMount() {
+        this.preloadImage(bitcoin)
+        this.preloadImage(lightning)
+        this.preloadImage(card)
     }
 
     render() {
