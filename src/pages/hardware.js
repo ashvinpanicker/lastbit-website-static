@@ -2,11 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import hodler1 from "../../static/images/Hodler_1.34.png"
-import hodler2 from "../../static/images/Hodler_1.37.png"
-import blob2 from "../../static/images/blob2.svg"
-// import apphodler from "../../static/images/hwandphone.png"
-// import blob1 from "../../static/images/blob-shape.svg"
+import hodler1 from "../../static/images/hardware/Hodler_1.34.png"
+import hodler2 from "../../static/images/hardware/Hodler_1.37.png"
+import blob2 from "../../static/images/hardware/blob2.svg"
+// import apphodler from "../../static/images/hardware/hwandphone.png"
+// import blob1 from "../../static/images/hardware/blob-shape.svg"
 
 const AboutPage = () => (
     <Layout>

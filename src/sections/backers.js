@@ -1,15 +1,14 @@
 import React from "react"
 
-import mongodb from "../../static/images/Logo1.svg"
-// import logo2 from "../../static/images/Logo2.svg"
-import liaa from "../../static/images/liaa4.jpg"
-import buildit from "../../static/images/Logo4.svg"
-import brinc from "../../static/images/Logo5.svg"
-import artesian from "../../static/images/Logo6.svg"
-import skydeck from "../../static/images/skydeck1.png"
-import charlie from "../../static/images/charlie.png"
-import hatch from "../../static/images/hatch.png"
-import fulgur from "../../static/images/fulgur-logo.svg"
+import mongodb from "../../static/images/backers/mongo.svg"
+import liaa from "../../static/images/backers/liaa4.jpg"
+import buildit from "../../static/images/backers/buildit.svg"
+import brinc from "../../static/images/backers/brinc.svg"
+import artesian from "../../static/images/backers/artesian.svg"
+import skydeck from "../../static/images/backers/skydeck1.png"
+import charlie from "../../static/images/backers/charlie.png"
+import hatch from "../../static/images/backers/hatch.png"
+import fulgur from "../../static/images/backers/fulgur.svg"
 
 const Backers = () => (
     <div className={"showcase"}>

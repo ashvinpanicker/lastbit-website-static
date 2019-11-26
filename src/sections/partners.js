@@ -1,7 +1,7 @@
 import React from "react"
 
-import weavr from "../../static/images/weavr.svg"
-import bitlocus from "../../static/images/bitlocus.png"
+import weavr from "../../static/images/partners/weavr.svg"
+import bitlocus from "../../static/images/partners/bitlocus.png"
 
 const Partners = () => (
     <div className={"showcase"}>

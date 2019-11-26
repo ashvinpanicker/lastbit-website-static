@@ -3,18 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Subscribe from "../components/subscribe"
-import IconCard from "../components/iconcard"
-import mobilepay from "../../static/images/card_icon.png"
-import lightningbolt from "../../static/images/lightning_bolt.png"
-import google from "../../static/images/google.png"
-import apple from "../../static/images/apple.png"
+import Subscribe from "../sections/subscribe"
+
+import google from "../../static/images/app/google.png"
+import apple from "../../static/images/app/apple.png"
 import landing from "../../static/images/landing.png"
-import easy from "../../static/images/easy-icon-2.png"
-import zeus from "../../static/images/zeus.gif"
-import Features from "../components/features"
-import Partners from "../components/partners"
-import Backers from "../components/backers"
+
+import Sky from "../sections/sky"
+import Features from "../sections/features"
+import Partners from "../sections/partners"
+import Backers from "../sections/backers"
 // import AnimatedText from "../components/textAnimated"
 
 const IndexPage = () => (
@@ -47,69 +45,8 @@ const IndexPage = () => (
                 {/* <AnimatedText /> */}
             </div>
         </div>
-        <section className={"sky"}>
-            <h2 className={"section_title"}>
-                Towards a closed loop Bitcoin economy
-            </h2>
-            <p className={"section_subtitle"}>
-                The complete financial suite for bitcoin
-            </p>
-            <img
-                src={zeus}
-                alt={"Store, Send, Spend Bitcoin Instantly"}
-                className={"zeus"}
-            />
-            <div className="x1">
-                <div className="cloud"></div>
-            </div>
 
-            <div className="x2">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x3">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x4">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x5">
-                <div className="cloud"></div>
-            </div>
-            <div className={"container"}>
-                <div className={"row"}>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={mobilepay}
-                            title={"Easy On-Ramps"}
-                            desc={
-                                "Get started with Bitcoin on the Lightning Network by simply purchasing Bitcoin with your credit card"
-                            }
-                        />
-                    </div>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={lightningbolt}
-                            title={"Easy Off-Ramps"}
-                            desc={
-                                "Send Bitcoin to anyone over social media readily available to use on the Lightning Network or spendable on a personal debit card"
-                            }
-                        />
-                    </div>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={easy}
-                            title={"Incentivized Spending"}
-                            desc={
-                                "Your personal IBAN account to spend fiat and earn Bitcoin cashbacks that you can spend & send instantly!"
-                            }
-                        />
-                    </div>
-                </div>
-            </div>
-        </section>
+        <Sky />
 
         <section className={"features__section"}>
             <div className={"container"} id={"features"}>

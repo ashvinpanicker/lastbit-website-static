@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import bitcoin from "../../static/images/bitcoin.png"
-import lightning from "../../static/images/lightning.png"
-import card from "../../static/images/card.png"
+import bitcoin from "../../static/images/app/bitcoin.png"
+import lightning from "../../static/images/app/lightning.png"
+import card from "../../static/images/app/card.png"
 
 export default class Features extends Component {
     state = {
