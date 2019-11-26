@@ -164,6 +164,23 @@ const Layout = ({ children }) => (
                                 </div>
                             </div>
                         </div>
+                        <p
+                            style={{
+                                fontSize: 11,
+                                color: "#aaa",
+                                paddingTop: 20,
+                                textAlign: "center",
+                            }}
+                        >
+                            Mastercard Debit cards are issued by Paynetics AD
+                            pursuant to license by Mastercard International
+                            Incorporated with payment agent Paystratus Group
+                            Ltd, trading as Weavr.io, registered to the
+                            Bulgarian National Bank with company address Kemp
+                            House 160 City Road, London EC1V 2NX, United Kingdom
+                            under company registration number 11677111 and VAT
+                            GB314327236.
+                        </p>
                     </div>
                 </footer>
             </>
