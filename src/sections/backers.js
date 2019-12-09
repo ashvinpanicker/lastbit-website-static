@@ -78,44 +78,6 @@ const Backers = () => (
                 </div>
                 <div className={"col-4"}>
                     <img
-                        src={binance}
-                        className={"partner_logo"}
-                        alt={"binance_fellowship"}
-                        onClick={() => window.open("https://binancex.dev/")}
-                    />
-                </div>
-            </div>
-
-            <div className={"row"}>
-                <div className={"col-6"}>
-                    <img
-                        src={brinc}
-                        className={"partner_logo"}
-                        alt={"brinc"}
-                        onClick={() => window.open("https://www.brinc.io/")}
-                    />
-                </div>
-                <div className={"col-6"}>
-                    <img
-                        src={artesian}
-                        className={"partner_logo"}
-                        alt={"artesian"}
-                        style={{ cursor: "default" }}
-                    />
-                </div>
-            </div>
-
-            <div className={"row"}>
-                <div className={"col-6"}>
-                    <img
-                        src={buildit}
-                        className={"partner_logo"}
-                        alt={"buildit"}
-                        onClick={() => window.open("https://www.buildit.lv/")}
-                    />
-                </div>
-                <div className={"col-6"}>
-                    <img
                         src={liaa}
                         className={"partner_logo"}
                         alt={"liaa"}
@@ -127,6 +89,46 @@ const Backers = () => (
                         }
                     />
                 </div>
+            </div>
+
+            <div className={"row"}>
+                <div className={"col-4"}>
+                    <img
+                        src={brinc}
+                        className={"partner_logo"}
+                        alt={"brinc"}
+                        onClick={() => window.open("https://www.brinc.io/")}
+                    />
+                </div>
+                <div className={"col-4"}>
+                    <img
+                        src={artesian}
+                        className={"partner_logo"}
+                        alt={"artesian"}
+                        style={{ cursor: "default" }}
+                    />
+                </div>
+                <div className={"col-4"}>
+                    <img
+                        src={buildit}
+                        className={"partner_logo"}
+                        alt={"buildit"}
+                        onClick={() => window.open("https://www.buildit.lv/")}
+                    />
+                </div>
+            </div>
+
+            <div className={"row"}>
+                <div className={"col-4"}></div>
+                <div className={"col-4"}>
+                    <img
+                        src={binance}
+                        className={"partner_logo"}
+                        alt={"binance_fellowship"}
+                        onClick={() => window.open("https://binancex.dev/")}
+                    />
+                </div>
+                <div className={"col-4"}></div>
             </div>
             <div style={{ padding: "25px 0px" }}></div>
         </div>
