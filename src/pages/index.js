@@ -71,12 +71,22 @@ const IndexPage = () => (
                     alt={"playstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
+                    onClick={() =>
+                        window.open(
+                            "https://play.google.com/store/apps/details?id=com.lastbit.app"
+                        )
+                    }
                 />
                 <img
                     src={apple}
                     alt={"appstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
+                    onClick={() =>
+                        window.open(
+                            "https://testflight.apple.com/join/yiDiDP9a"
+                        )
+                    }
                 />
             </div>
         </div>
