@@ -522,6 +522,14 @@ body {
             padding: 50px 0 45px;
         }
 
+        .telegramButton {
+            text-align: right;
+
+            @media screen and (max-width: $break-small) {
+                text-align: center;
+            }
+        }
+
         .widget__item {
             @media screen and (max-width: $break-small) {
                 padding: 15px 0 0;

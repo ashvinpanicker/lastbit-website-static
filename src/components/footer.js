@@ -3,6 +3,7 @@ import React from "react"
 import iconTwitter from "../../static/images/icons/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icons/icon-linkedin.svg"
 import iconInstagram from "../../static/images/icons/icon-instagram.svg"
+import telegramButton from "../../static/images/icons/telegram-button.png"
 
 const Footer = ({ logo }) => (
     <footer>
@@ -114,6 +115,11 @@ const Footer = ({ logo }) => (
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className={"telegramButton"}>
+                    <a href={"https://t.me/lastbitpay"}>
+                        <img src={telegramButton} alt={"Join us on Telegram"} />
+                    </a>
                 </div>
             </div>
             <p
