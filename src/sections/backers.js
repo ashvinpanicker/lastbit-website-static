@@ -9,6 +9,7 @@ import skydeck from "../../static/images/backers/skydeck1.png"
 import charlie from "../../static/images/backers/charlie.png"
 import hatch from "../../static/images/backers/hatch.png"
 import fulgur from "../../static/images/backers/fulgur.svg"
+import binance from "../../static/images/backers/binance.png"
 
 const Backers = () => (
     <div className={"showcase"}>
@@ -21,7 +22,6 @@ const Backers = () => (
                         src={fulgur}
                         className={"partner_logo"}
                         alt={"fulgur_ventures"}
-                        style={{ cursor: "pointer" }}
                         onClick={() => window.open("https://fulgur.ventures/")}
                     />
                 </div>
@@ -52,34 +52,6 @@ const Backers = () => (
                     />
                 </div>
             </div>
-            <div className={"row"}>
-                <div className={"col-4"}>
-                    <img
-                        src={buildit}
-                        className={"partner_logo"}
-                        alt={"buildit"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.buildit.lv/")}
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={brinc}
-                        className={"partner_logo"}
-                        alt={"brinc"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.brinc.io/")}
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={artesian}
-                        className={"partner_logo"}
-                        alt={"artesian"}
-                        // style={{ cursor: "pointer" }}
-                    />
-                </div>
-            </div>
 
             <div className={"row"}>
                 <div className={"col-4"}>
@@ -87,7 +59,6 @@ const Backers = () => (
                         src={hatch}
                         className={"partner_logo"}
                         alt={"digital_ocean"}
-                        style={{ cursor: "pointer" }}
                         onClick={() =>
                             window.open("https://www.digitalocean.com/hatch/")
                         }
@@ -98,7 +69,6 @@ const Backers = () => (
                         src={mongodb}
                         className={"partner_logo"}
                         alt={"mongodb"}
-                        style={{ cursor: "pointer" }}
                         onClick={() =>
                             window.open(
                                 "https://www.mongodb.com/startup-accelerator"
@@ -107,6 +77,44 @@ const Backers = () => (
                     />
                 </div>
                 <div className={"col-4"}>
+                    <img
+                        src={binance}
+                        className={"partner_logo"}
+                        alt={"binance_fellowship"}
+                        onClick={() => window.open("https://binancex.dev/")}
+                    />
+                </div>
+            </div>
+
+            <div className={"row"}>
+                <div className={"col-6"}>
+                    <img
+                        src={brinc}
+                        className={"partner_logo"}
+                        alt={"brinc"}
+                        onClick={() => window.open("https://www.brinc.io/")}
+                    />
+                </div>
+                <div className={"col-6"}>
+                    <img
+                        src={artesian}
+                        className={"partner_logo"}
+                        alt={"artesian"}
+                        style={{ cursor: "default" }}
+                    />
+                </div>
+            </div>
+
+            <div className={"row"}>
+                <div className={"col-6"}>
+                    <img
+                        src={buildit}
+                        className={"partner_logo"}
+                        alt={"buildit"}
+                        onClick={() => window.open("https://www.buildit.lv/")}
+                    />
+                </div>
+                <div className={"col-6"}>
                     <img
                         src={liaa}
                         className={"partner_logo"}
