@@ -1,18 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Subscribe from "../components/subscribe"
-import IconCard from "../components/iconcard"
-import mobilepay from "../../static/images/card_icon.png"
-import lightningbolt from "../../static/images/lightning_bolt.png"
-import google from "../../static/images/google.png"
-import apple from "../../static/images/apple.png"
-import landing from "../../static/images/screens.png"
-import easy from "../../static/images/easy-icon-2.png"
-import zeus from "../../static/images/zeus.gif"
-import Features from "../components/features"
-import Partners from "../components/partners"
+import Subscribe from "../sections/subscribe"
+
+import google from "../../static/images/app/google.png"
+import apple from "../../static/images/app/apple.png"
+import landing from "../../static/images/landing.png"
+
+import Sky from "../sections/sky"
+import Features from "../sections/features"
+import Partners from "../sections/partners"
+import Backers from "../sections/backers"
 // import AnimatedText from "../components/textAnimated"
 
 const IndexPage = () => (
@@ -28,6 +28,13 @@ const IndexPage = () => (
                     Spend, Send & Save{" "}
                     <span style={{ color: "#ff9900" }}>Bitcoin</span>
                 </h1>
+                <Link to="/#features" title={"lastbit"}>
+                    <img
+                        src={landing}
+                        alt="screens"
+                        className={"landing_img hover-shadow"}
+                    />
+                </Link>
                 <p
                     className={"landing_subtitle"}
                     style={{ marginBottom: 40, fontWeight: 600, fontSize: 32 }}
@@ -37,74 +44,12 @@ const IndexPage = () => (
                 <Subscribe />
                 {/* <AnimatedText /> */}
             </div>
-            <img src={landing} alt="screens" className={"landing_img"} />
         </div>
-        <section className={"sky"}>
-            <h2 className={"section_title"}>
-                Towards a closed loop Bitcoin economy
-            </h2>
-            <img
-                src={zeus}
-                alt={"Store, Send, Spend Bitcoin Instantly"}
-                className={"zeus"}
-            />
-            <div className="x1">
-                <div className="cloud"></div>
-            </div>
 
-            <div className="x2">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x3">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x4">
-                <div className="cloud"></div>
-            </div>
-
-            <div className="x5">
-                <div className="cloud"></div>
-            </div>
-            <div
-                className={"container"}
-                style={{ marginBottom: 50, marginTop: 50 }}
-            >
-                <div className={"row"}>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={mobilepay}
-                            title={"Easy On-Ramps"}
-                            desc={
-                                "Get started with Bitcoin on the Lightning Network by simply purchasing Bitcoin with your credit card"
-                            }
-                        />
-                    </div>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={lightningbolt}
-                            title={"Easy Off-Ramps"}
-                            desc={
-                                "Send Bitcoin to anyone over social media readily available to use on the Lightning Network or spendable on a personal debit card"
-                            }
-                        />
-                    </div>
-                    <div className={"col-4"}>
-                        <IconCard
-                            src={easy}
-                            title={"Incentivized Spending"}
-                            desc={
-                                "Your personal IBAN account to spend fiat and earn Bitcoin cashbacks that you can spend & send instantly!"
-                            }
-                        />
-                    </div>
-                </div>
-            </div>
-        </section>
+        <Sky />
 
         <section className={"features__section"}>
-            <div className={"container"}>
+            <div className={"container"} id={"features"}>
                 <h2 className={"section_title"}>
                     Lastbit mobile (iOS & Android)
                 </h2>
@@ -126,12 +71,22 @@ const IndexPage = () => (
                     alt={"playstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
+                    onClick={() =>
+                        window.open(
+                            "https://play.google.com/store/apps/details?id=com.lastbit.app"
+                        )
+                    }
                 />
                 <img
                     src={apple}
                     alt={"appstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
+                    onClick={() =>
+                        window.open(
+                            "https://testflight.apple.com/join/yiDiDP9a"
+                        )
+                    }
                 />
             </div>
         </div>
@@ -161,6 +116,7 @@ const IndexPage = () => (
         </div>
 
         <Partners />
+        <Backers />
     </Layout>
 )
 

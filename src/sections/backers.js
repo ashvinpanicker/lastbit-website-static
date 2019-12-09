@@ -1,17 +1,17 @@
 import React from "react"
 
-import mongodb from "../../static/images/Logo1.svg"
-// import logo2 from "../../static/images/Logo2.svg"
-import liaa from "../../static/images/liaa4.jpg"
-import buildit from "../../static/images/Logo4.svg"
-import brinc from "../../static/images/Logo5.svg"
-import artesian from "../../static/images/Logo6.svg"
-import skydeck from "../../static/images/skydeck1.png"
-import charlie from "../../static/images/charlie.png"
-import hatch from "../../static/images/hatch.png"
-import fulgur from "../../static/images/fulgur-logo.svg"
+import mongodb from "../../static/images/backers/mongo.svg"
+import liaa from "../../static/images/backers/liaa4.jpg"
+import buildit from "../../static/images/backers/buildit.svg"
+import brinc from "../../static/images/backers/brinc.svg"
+import artesian from "../../static/images/backers/artesian.svg"
+import skydeck from "../../static/images/backers/skydeck1.png"
+import charlie from "../../static/images/backers/charlie.png"
+import hatch from "../../static/images/backers/hatch.png"
+import fulgur from "../../static/images/backers/fulgur.svg"
+import binance from "../../static/images/backers/binance.png"
 
-const Partners = () => (
+const Backers = () => (
     <div className={"showcase"}>
         <div style={{ textAlign: "center", marginTop: 50 }}>
             <h2 style={{ fontSize: 32 }}>Backed By</h2>
@@ -22,7 +22,6 @@ const Partners = () => (
                         src={fulgur}
                         className={"partner_logo"}
                         alt={"fulgur_ventures"}
-                        style={{ cursor: "pointer" }}
                         onClick={() => window.open("https://fulgur.ventures/")}
                     />
                 </div>
@@ -53,34 +52,6 @@ const Partners = () => (
                     />
                 </div>
             </div>
-            <div className={"row"}>
-                <div className={"col-4"}>
-                    <img
-                        src={buildit}
-                        className={"partner_logo"}
-                        alt={"buildit"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.buildit.lv/")}
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={brinc}
-                        className={"partner_logo"}
-                        alt={"brinc"}
-                        style={{ cursor: "pointer" }}
-                        onClick={() => window.open("https://www.brinc.io/")}
-                    />
-                </div>
-                <div className={"col-4"}>
-                    <img
-                        src={artesian}
-                        className={"partner_logo"}
-                        alt={"artesian"}
-                        // style={{ cursor: "pointer" }}
-                    />
-                </div>
-            </div>
 
             <div className={"row"}>
                 <div className={"col-4"}>
@@ -88,7 +59,6 @@ const Partners = () => (
                         src={hatch}
                         className={"partner_logo"}
                         alt={"digital_ocean"}
-                        style={{ cursor: "pointer" }}
                         onClick={() =>
                             window.open("https://www.digitalocean.com/hatch/")
                         }
@@ -99,7 +69,6 @@ const Partners = () => (
                         src={mongodb}
                         className={"partner_logo"}
                         alt={"mongodb"}
-                        style={{ cursor: "pointer" }}
                         onClick={() =>
                             window.open(
                                 "https://www.mongodb.com/startup-accelerator"
@@ -112,7 +81,7 @@ const Partners = () => (
                         src={liaa}
                         className={"partner_logo"}
                         alt={"liaa"}
-                        style={{ cursor: "pointer" }}
+                        style={{ cursor: "pointer", maxWidth: 300 }}
                         onClick={() =>
                             window.open(
                                 "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
@@ -121,9 +90,49 @@ const Partners = () => (
                     />
                 </div>
             </div>
+
+            <div className={"row"}>
+                <div className={"col-4"}>
+                    <img
+                        src={brinc}
+                        className={"partner_logo"}
+                        alt={"brinc"}
+                        onClick={() => window.open("https://www.brinc.io/")}
+                    />
+                </div>
+                <div className={"col-4"}>
+                    <img
+                        src={artesian}
+                        className={"partner_logo"}
+                        alt={"artesian"}
+                        style={{ cursor: "default" }}
+                    />
+                </div>
+                <div className={"col-4"}>
+                    <img
+                        src={buildit}
+                        className={"partner_logo"}
+                        alt={"buildit"}
+                        onClick={() => window.open("https://www.buildit.lv/")}
+                    />
+                </div>
+            </div>
+
+            <div className={"row"}>
+                <div className={"col-4"}></div>
+                <div className={"col-4"}>
+                    <img
+                        src={binance}
+                        className={"partner_logo"}
+                        alt={"binance_fellowship"}
+                        onClick={() => window.open("https://binancex.dev/")}
+                    />
+                </div>
+                <div className={"col-4"}></div>
+            </div>
             <div style={{ padding: "25px 0px" }}></div>
         </div>
     </div>
 )
 
-export default Partners
+export default Backers
