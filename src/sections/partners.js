@@ -13,7 +13,6 @@ const Partners = () => (
                         src={weavr}
                         className={"partner_logo"}
                         alt={"weavr_mastercard"}
-                        style={{ cursor: "pointer" }}
                         onClick={() => window.open("https://www.weavr.io/")}
                     />
                     <p
@@ -22,7 +21,7 @@ const Partners = () => (
                             fontFamily: "Century Gothic",
                         }}
                     >
-                        A registered ISO for Mastercard®
+                        Virtual card partner
                     </p>
                 </div>
                 <div className={"col-6"}>
@@ -30,7 +29,6 @@ const Partners = () => (
                         src={bitlocus}
                         className={"partner_logo"}
                         alt={"bitlocus_exchange"}
-                        style={{ cursor: "pointer" }}
                         onClick={() => window.open("https://bitlocus.com/")}
                     />
                     <p

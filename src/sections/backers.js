@@ -30,7 +30,7 @@ const Backers = () => (
                         src={skydeck}
                         className={"partner_logo"}
                         alt={"skydeck"}
-                        style={{ cursor: "pointer", padding: "5px 0 0 0" }}
+                        style={{ padding: "5px 0 0 0" }}
                         onClick={() =>
                             window.open("https://skydeck.berkeley.edu/")
                         }
@@ -42,7 +42,6 @@ const Backers = () => (
                         className={"partner_logo"}
                         alt={"charlie_lee"}
                         style={{
-                            cursor: "pointer",
                             paddingTop: 30,
                             maxWidth: 200,
                         }}
@@ -81,7 +80,7 @@ const Backers = () => (
                         src={liaa}
                         className={"partner_logo"}
                         alt={"liaa"}
-                        style={{ cursor: "pointer", maxWidth: 300 }}
+                        style={{ maxWidth: 300 }}
                         onClick={() =>
                             window.open(
                                 "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
