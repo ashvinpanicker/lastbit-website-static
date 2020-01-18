@@ -44,7 +44,7 @@ const Team = () => (
                     src={ash}
                     title={"Ashvin Panicker"}
                     subtitle={"Co-Founder"}
-                    linkedIn={"https://www.linkedin.com/in/ashvinpanicker"}
+                    linkedIn={"https://www.linkedin.com/in/ashvin-panicker"}
                 />
             </div>
             <div className={"col-4"}>
