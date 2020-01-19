@@ -36,7 +36,6 @@ const Team = () => (
             </a>{" "}
             to read our story
         </p>
-
         <div className={"row container"} style={{ paddingTop: 40 }}>
                 <ContactCard
                     src={logo}
