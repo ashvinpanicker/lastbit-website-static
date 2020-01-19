@@ -116,11 +116,6 @@ const Footer = ({ logo }) => (
                         </div>
                     </div>
                 </div>
-                <div className={"telegramButton"}>
-                    <a href={"https://t.me/lastbitpay"}>
-                        <img src={telegramButton} alt={"Join us on Telegram"} />
-                    </a>
-                </div>
             </div>
             <p
                 style={{
