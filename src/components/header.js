@@ -35,13 +35,19 @@ const Header = ({ siteTitle, logo }) => (
                 </div>
                 <div id="mobile-routes">
                     <div className={"mobile-link"}>
-                        <div class="dropdown">
-                            <button class="dropbtn">
+                        <div className="dropdown">
+                            <button className="dropbtn">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </button>
-                            <div class="dropdown-content">
+                            <div className="dropdown-content">
+                            <Link
+                                    to="/"
+                                    title={"home"}
+                                >
+                                    Home
+                                </Link>
                                 <Link
                                     to="/about"
                                     title={"about"}
@@ -51,13 +57,14 @@ const Header = ({ siteTitle, logo }) => (
                                 <a href={"https://shop.lastbit.io"}>
                                     Webshop
                                 </a>
-                                <Link
-                                    to="/#subscribe"
-                                    className="primary-action"
-                                    title={"lastbit"}
-                                >
-                                    SIGN UP
-                                </Link>
+                                <div className="primary-action">
+                                    <Link
+                                        to="/#subscribe"
+                                        title={"lastbit"}
+                                    >
+                                        SIGN UP
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

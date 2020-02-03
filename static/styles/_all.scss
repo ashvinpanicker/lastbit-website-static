@@ -158,6 +158,34 @@ body {
                 //     background: #00204a;
                 //     color: white;
                 // }
+
+                .primary-action {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80px;
+                        height: 20px;
+                        margin: 5px 0 15px 0;
+                        font-style: light;
+                        font-size: 12px;
+                        line-height: 47px;
+                        background: #00204a;
+                        border-radius: 4px;
+                        text-align: center;
+                        color: #ffffff;
+                        -webkit-transition-duration: 0.4s; /* Safari */
+                        transition-duration: 0.4s;
+                    }
+
+                    a:hover {
+                        color: #444;
+                    }
+                }
             }
 
             /* Links inside the dropdown */
