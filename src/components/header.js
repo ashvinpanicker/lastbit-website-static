@@ -13,10 +13,10 @@ const Header = ({ siteTitle, logo }) => (
                 </div>
 
                 <div className={"header-link"}>
-                    <Link to="/about" title={"about"} style={{ marginLeft: 6, marginRight: 6 }}>
+                    <Link to="/about" title={"about"} style={{ marginLeft: 10, marginRight: 10 }}>
                         About
                     </Link>
-		    <a style={{ marginLeft: 6, marginRight: 6 }} href={'https://shop.lastbit.io'}>Webshop</a>	
+		    <a style={{ marginLeft: 10, marginRight: 10 }} href={'https://shop.lastbit.io'}>Webshop</a>	
                 </div>
 
                 <div className={"get-started"}>
