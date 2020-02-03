@@ -3,7 +3,7 @@ import React from "react"
 import iconTwitter from "../../static/images/icons/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icons/icon-linkedin.svg"
 import iconInstagram from "../../static/images/icons/icon-instagram.svg"
-import telegramButton from "../../static/images/icons/telegram-button.png"
+// import telegramButton from "../../static/images/icons/telegram-button.png"
 
 const Footer = ({ logo }) => (
     <footer>

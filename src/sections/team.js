@@ -2,14 +2,14 @@ import React from "react"
 
 import ContactCard from "../components/contactcard"
 import logo from "../../static/images/logo.png"
-import pb from "../../static/images/team/grayscale/pb.png"
-import ash from "../../static/images/team/grayscale/ash.png"
-import pratham from "../../static/images/team/grayscale/pratham.png"
-import shivam from "../../static/images/team/grayscale/shivam.png"
-import pochiwu from "../../static/images/team/grayscale/pochiwu.png"
-import chon from "../../static/images/team/grayscale/chon.jpg"
-import kristo from "../../static/images/team/grayscale/kristo.png"
-import kaili from "../../static/images/team/grayscale/kaili.png"
+// import pb from "../../static/images/team/grayscale/pb.png"
+// import ash from "../../static/images/team/grayscale/ash.png"
+// import pratham from "../../static/images/team/grayscale/pratham.png"
+// import shivam from "../../static/images/team/grayscale/shivam.png"
+// import pochiwu from "../../static/images/team/grayscale/pochiwu.png"
+// import chon from "../../static/images/team/grayscale/chon.jpg"
+// import kristo from "../../static/images/team/grayscale/kristo.png"
+// import kaili from "../../static/images/team/grayscale/kaili.png"
 
 const Team = () => (
     <div className={"showcase"}>
