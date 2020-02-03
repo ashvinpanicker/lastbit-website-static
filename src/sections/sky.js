@@ -12,7 +12,7 @@ const Sky = () => (
             Towards a closed loop Bitcoin economy
         </h2>
         <p className={"section_subtitle"}>
-            The complete financial suite for bitcoin
+            A suite of financial tools to get started with bitcoin and lightning
         </p>
         <img
             src={zeus}

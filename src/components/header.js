@@ -13,24 +13,15 @@ const Header = ({ siteTitle, logo }) => (
                 </div>
 
                 <div className={"header-link"}>
-                    <Link
-                        to="/about"
-                        title={"about"}
-                        style={{ marginLeft: 10, marginRight: 10 }}
-                    >
+                    <Link to="/about" title={"about"}>
                         About
                     </Link>
-                    <a
-                        style={{ marginLeft: 10, marginRight: 10 }}
-                        href={"https://shop.lastbit.io"}
-                    >
-                        Webshop
-                    </a>
+                    <a href={"https://shop.lastbit.io"}>Webshop</a>
                 </div>
 
                 <div className={"get-started"}>
                     <Link to="/#subscribe" title={"lastbit"}>
-                        SIGN UP
+                        Sign Up
                     </Link>
                 </div>
                 <div id="mobile-routes">
@@ -42,26 +33,15 @@ const Header = ({ siteTitle, logo }) => (
                                 <span></span>
                             </button>
                             <div className="dropdown-content">
-                            <Link
-                                    to="/"
-                                    title={"home"}
-                                >
+                                <Link to="/" title={"home"}>
                                     Home
                                 </Link>
-                                <Link
-                                    to="/about"
-                                    title={"about"}
-                                >
+                                <Link to="/about" title={"about"}>
                                     About
                                 </Link>
-                                <a href={"https://shop.lastbit.io"}>
-                                    Webshop
-                                </a>
+                                <a href={"https://shop.lastbit.io"}>Webshop</a>
                                 <div className="primary-action">
-                                    <Link
-                                        to="/#subscribe"
-                                        title={"lastbit"}
-                                    >
+                                    <Link to="/#subscribe" title={"lastbit"}>
                                         SIGN UP
                                     </Link>
                                 </div>

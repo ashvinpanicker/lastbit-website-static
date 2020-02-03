@@ -122,7 +122,7 @@ const Footer = ({ logo }) => (
                     fontSize: 11,
                     color: "#aaa",
                     paddingTop: 20,
-                    textAlign: "center",
+                    textAlign: "justify",
                 }}
             >
                 Mastercard Debit cards are issued by Paynetics AD pursuant to
