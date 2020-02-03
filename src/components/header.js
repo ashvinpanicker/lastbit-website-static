@@ -30,7 +30,7 @@ const Header = ({ siteTitle, logo }) => (
 
                 <div className={"get-started"}>
                     <Link to="/#subscribe" title={"lastbit"}>
-                        SIGN UP
+                        Sign Up
                     </Link>
                 </div>
                 <div id="mobile-routes">
@@ -56,7 +56,7 @@ const Header = ({ siteTitle, logo }) => (
                                     className="primary-action"
                                     title={"lastbit"}
                                 >
-                                    SIGN UP
+                                    Sign Up
                                 </Link>
                             </div>
                         </div>
