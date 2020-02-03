@@ -943,3 +943,16 @@ body {
     right: 50px;
     top: -90px;
 }
+
+.app_download_btn_container {
+	display: flex;
+    	align-items: center;
+    	justify-content: space-evenly;
+    	flex-flow: wrap;
+}
+
+.app_download_btn {
+	max-height: 100px;
+	max-width: 500px;
+	cursor: pointer;
+}
