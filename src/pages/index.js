@@ -53,11 +53,13 @@ const IndexPage = () => (
                         src={apple}
                         alt="appstore"
                         className={"app_download_btn"}
-                        onClick={() =>
-                            window.open(
-                                "https://testflight.apple.com/join/yiDiDP9a"
-                            )
-                        }
+                        onClick={() => {
+                            if (window.confirm("Our latest iOS app is coming very soon! Continue with the old version for now?")) {
+                                window.open(
+                                    "https://testflight.apple.com/join/yiDiDP9a"
+                                )
+                              }
+                        }}
                     />
                 </div>
                 {/* <Subscribe /> */}
