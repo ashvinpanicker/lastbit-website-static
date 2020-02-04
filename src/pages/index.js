@@ -54,11 +54,15 @@ const IndexPage = () => (
                         alt="appstore"
                         className={"app_download_btn"}
                         onClick={() => {
-                            if (window.confirm("Our latest iOS app is coming very soon! Continue with the old version for now?")) {
+                            if (
+                                window.confirm(
+                                    "Our latest iOS app is coming very soon! Continue with the old version for now?"
+                                )
+                            ) {
                                 window.open(
                                     "https://testflight.apple.com/join/yiDiDP9a"
                                 )
-                              }
+                            }
                         }}
                     />
                 </div>
@@ -108,11 +112,17 @@ const IndexPage = () => (
                     alt={"appstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
-                    onClick={() =>
-                        window.open(
-                            "https://testflight.apple.com/join/yiDiDP9a"
-                        )
-                    }
+                    onClick={() => {
+                        if (
+                            window.confirm(
+                                "Our latest iOS app is coming very soon! Continue with the old version for now?"
+                            )
+                        ) {
+                            window.open(
+                                "https://testflight.apple.com/join/yiDiDP9a"
+                            )
+                        }
+                    }}
                 />
             </div>
         </div>
