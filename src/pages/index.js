@@ -43,13 +43,21 @@ const IndexPage = () => (
                         src={google}
                         alt="playstore"
                         className={"app_download_btn"}
-                        href="#"
+                        onClick={() =>
+                            window.open(
+                                "https://drive.google.com/open?id=1XooBsXghnZ53LwCmqZLFKXekHOm_yNyO"
+                            )
+                        }
                     />
                     <img
                         src={apple}
                         alt="appstore"
                         className={"app_download_btn"}
-                        href="#"
+                        onClick={() =>
+                            window.open(
+                                "https://testflight.apple.com/join/yiDiDP9a"
+                            )
+                        }
                     />
                 </div>
                 {/* <Subscribe /> */}
@@ -82,9 +90,14 @@ const IndexPage = () => (
                     alt={"playstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
+                    // onClick={() =>
+                    //     window.open(
+                    //         "https://play.google.com/store/apps/details?id=com.lastbit.app"
+                    //     )
+                    // }
                     onClick={() =>
                         window.open(
-                            "https://play.google.com/store/apps/details?id=com.lastbit.app"
+                            "https://drive.google.com/open?id=1XooBsXghnZ53LwCmqZLFKXekHOm_yNyO"
                         )
                     }
                 />
