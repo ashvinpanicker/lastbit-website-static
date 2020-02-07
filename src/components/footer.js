@@ -24,6 +24,14 @@ const Footer = ({ logo }) => (
                         <div className={"about"}>
                             Store and Spend Bitcoin, Securely and Instantly
                         </div>
+                        <div className={"row"}>
+                            <a className={"col-md-2"} style={{ marginLeft: 0, fontWeight: "600" }} href={"https://www.bizapedia.com/ca/lastbit-inc.html"}>USA</a>
+                            <div className={"col-md-1"}></div>
+                            <a className={"col-md-3"} style={{ fontWeight: "600" }}  href={"https://hongkong-corp.com/co/lastbit-limited"}>HONG KONG</a>
+                            <div className={"col-md-1"}></div>
+                            <a className={"col-md-2"} style={{ fontWeight: "600" }}  href={"https://company.lursoft.lv/en/lastbit/40203173048"}>LATVIA</a>
+                            <div className={"col-md-2"}></div>
+                        </div>
                     </div>
                 </div>
 
@@ -117,7 +125,7 @@ const Footer = ({ logo }) => (
                     </div>
                 </div>
             </div>
-            <p
+            {/* <p
                 style={{
                     fontSize: 11,
                     color: "#aaa",
@@ -131,7 +139,7 @@ const Footer = ({ logo }) => (
                 the Bulgarian National Bank with company address Kemp House 160
                 City Road, London EC1V 2NX, United Kingdom under company
                 registration number 11677111 and VAT GB314327236.
-            </p>
+            </p> */}
         </div>
     </footer>
 )
