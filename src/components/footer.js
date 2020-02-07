@@ -3,7 +3,6 @@ import React from "react"
 import iconTwitter from "../../static/images/icons/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icons/icon-linkedin.svg"
 import iconInstagram from "../../static/images/icons/icon-instagram.svg"
-// import telegramButton from "../../static/images/icons/telegram-button.png"
 
 const Footer = ({ logo }) => (
     <footer>
@@ -24,7 +23,7 @@ const Footer = ({ logo }) => (
                         <div className={"about"}>
                             Store and Spend Bitcoin, Securely and Instantly
                         </div>
-                        <div className={"row"}>
+                        <div className={"row"} style={{ marginTop: 10 }}>
                             <a className={"col-md-2"} style={{ marginLeft: 0, fontWeight: "600" }} href={"https://www.bizapedia.com/ca/lastbit-inc.html"}>USA</a>
                             <div className={"col-md-1"}></div>
                             <a className={"col-md-3"} style={{ fontWeight: "600" }}  href={"https://hongkong-corp.com/co/lastbit-limited"}>HONG KONG</a>
@@ -140,6 +139,17 @@ const Footer = ({ logo }) => (
                 City Road, London EC1V 2NX, United Kingdom under company
                 registration number 11677111 and VAT GB314327236.
             </p> */}
+            <p
+                style={{
+                    fontSize: 11,
+                    color: "#aaa",
+                    paddingTop: 40,
+                    textAlign: "center",
+                }}
+            >
+                Lastbit Inc. is a Delaware registered corporation with offices at 2150 Shattuck Ave, Berkeley, CA 94704
+                <p style={{paddingTop: 10}}><a href="mailto:info@lastbit.io" style={{textDecoration: 'underline'}}>info@lastbit.io</a></p>
+            </p>
         </div>
     </footer>
 )
