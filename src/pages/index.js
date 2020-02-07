@@ -45,7 +45,7 @@ const IndexPage = () => (
                         className={"app_download_btn"}
                         onClick={() =>
                             window.open(
-                                "https://drive.google.com/open?id=1XooBsXghnZ53LwCmqZLFKXekHOm_yNyO"
+                                "https://play.google.com/store/apps/details?id=com.lastbit.pay"
                             )
                         }
                     />
@@ -91,14 +91,9 @@ const IndexPage = () => (
                     alt={"playstore"}
                     className={"img-responsive hover-shadow"}
                     style={{ maxWidth: "300px", margin: 20 }}
-                    // onClick={() =>
-                    //     window.open(
-                    //         "https://play.google.com/store/apps/details?id=com.lastbit.app"
-                    //     )
-                    // }
                     onClick={() =>
                         window.open(
-                            "https://drive.google.com/open?id=1XooBsXghnZ53LwCmqZLFKXekHOm_yNyO"
+                            "https://play.google.com/store/apps/details?id=com.lastbit.pay"
                         )
                     }
                 />
