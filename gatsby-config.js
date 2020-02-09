@@ -10,7 +10,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-sitemap`,
             options: {
-                exclude: ["/terms", `/privacy`, `/contact`],
+                exclude: [`/contact`],
             },
         },
         `gatsby-plugin-robots-txt`,

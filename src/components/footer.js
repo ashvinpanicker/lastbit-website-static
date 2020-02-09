@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import Tnc from '../../static/files/Lastbit_Terms_and_Conditions_2020.pdf';
-import PrivacyPolicy from '../../static/files/Lastbit_Privacy_Policy_2020.pdf';
-import CookieNotice from '../../static/files/Lastbit_Cookie_Notice_2020.pdf';
+import Tnc from "../../static/files/Lastbit_Terms_and_Conditions_2020.pdf"
+import PrivacyPolicy from "../../static/files/Lastbit_Privacy_Policy_2020.pdf"
+import CookieNotice from "../../static/files/Lastbit_Cookie_Notice_2020.pdf"
 
 import iconTwitter from "../../static/images/icons/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icons/icon-linkedin.svg"
@@ -29,11 +29,35 @@ const Footer = ({ logo }) => (
                             Store and Spend Bitcoin, Securely and Instantly
                         </div>
                         <div className={"row"} style={{ marginTop: 10 }}>
-                            <a className={"col-md-2"} style={{ marginLeft: 0, fontWeight: "600" }} href={"https://www.bizapedia.com/ca/lastbit-inc.html"}>USA</a>
+                            <a
+                                className={"col-md-2"}
+                                style={{ marginLeft: 0, fontWeight: "600" }}
+                                href={
+                                    "https://www.bizapedia.com/ca/lastbit-inc.html"
+                                }
+                            >
+                                USA
+                            </a>
                             <div className={"col-md-1"}></div>
-                            <a className={"col-md-3"} style={{ fontWeight: "600" }}  href={"https://hongkong-corp.com/co/lastbit-limited"}>HONG KONG</a>
+                            <a
+                                className={"col-md-3"}
+                                style={{ fontWeight: "600" }}
+                                href={
+                                    "https://hongkong-corp.com/co/lastbit-limited"
+                                }
+                            >
+                                HONG KONG
+                            </a>
                             <div className={"col-md-1"}></div>
-                            <a className={"col-md-2"} style={{ fontWeight: "600" }}  href={"https://company.lursoft.lv/en/lastbit/40203173048"}>LATVIA</a>
+                            <a
+                                className={"col-md-2"}
+                                style={{ fontWeight: "600" }}
+                                href={
+                                    "https://company.lursoft.lv/en/lastbit/40203173048"
+                                }
+                            >
+                                LATVIA
+                            </a>
                             <div className={"col-md-2"}></div>
                         </div>
                     </div>
@@ -84,25 +108,33 @@ const Footer = ({ logo }) => (
                                     </Link>
                                 </li>
                                 <li>
-                                <a href={PrivacyPolicy} target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-                                    {/* <Link
-                                        to="/privacy"
-                                        title={"Privacy Policy"}
+                                    <a
+                                        href={PrivacyPolicy}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
-                                        Privacy
-                                    </Link> */}
+                                        Privacy Policy
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href={Tnc} target="_blank" style={{whiteSpace: 'nowrap'}} rel="noopener noreferrer">Terms & Conditions</a>
-                                    {/* <Link to="/terms" title={"Terms Of Use"}>
-                                        Terms Of Use
-                                    </Link> */}
+                                    <a
+                                        href={Tnc}
+                                        target="_blank"
+                                        style={{ whiteSpace: "nowrap" }}
+                                        rel="noopener noreferrer"
+                                    >
+                                        Terms & Conditions
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href={CookieNotice} target="_blank" style={{whiteSpace: 'nowrap'}} rel="noopener noreferrer">Cookie Notice</a>
-                                    {/* <Link to="/terms" title={"Terms Of Use"}>
-                                        Terms Of Use
-                                    </Link> */}
+                                    <a
+                                        href={CookieNotice}
+                                        target="_blank"
+                                        style={{ whiteSpace: "nowrap" }}
+                                        rel="noopener noreferrer"
+                                    >
+                                        Cookie Notice
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -160,8 +192,16 @@ const Footer = ({ logo }) => (
                     textAlign: "center",
                 }}
             >
-                Lastbit Inc. is a Delaware registered corporation with offices at 2150 Shattuck Ave, Berkeley, CA 94704
-                <p style={{paddingTop: 10}}><a href="mailto:info@lastbit.io" style={{textDecoration: 'underline'}}>info@lastbit.io</a></p>
+                Lastbit Inc. is a Delaware registered corporation with offices
+                at 2150 Shattuck Ave, Berkeley, CA 94704
+                <p style={{ paddingTop: 10, textAlign: 'center' }}>
+                    <a
+                        href="mailto:info@lastbit.io"
+                        style={{ textDecoration: "underline" }}
+                    >
+                        info@lastbit.io
+                    </a>
+                </p>
             </p>
         </div>
     </footer>
