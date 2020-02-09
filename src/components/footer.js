@@ -1,5 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
+
+import Tnc from '../../static/files/Lastbit_Terms_and_Conditions_2020.pdf';
+import PrivacyPolicy from '../../static/files/Lastbit_Privacy_Policy_2020.pdf';
+import CookieNotice from '../../static/files/Lastbit_Cookie_Notice_2020.pdf';
+
 import iconTwitter from "../../static/images/icons/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icons/icon-linkedin.svg"
 import iconInstagram from "../../static/images/icons/icon-instagram.svg"
@@ -79,17 +84,25 @@ const Footer = ({ logo }) => (
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
+                                <a href={PrivacyPolicy} target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                    {/* <Link
                                         to="/privacy"
                                         title={"Privacy Policy"}
                                     >
                                         Privacy
-                                    </Link>
+                                    </Link> */}
                                 </li>
                                 <li>
-                                    <Link to="/terms" title={"Terms Of Use"}>
+                                    <a href={Tnc} target="_blank" style={{whiteSpace: 'nowrap'}} rel="noopener noreferrer">Terms & Conditions</a>
+                                    {/* <Link to="/terms" title={"Terms Of Use"}>
                                         Terms Of Use
-                                    </Link>
+                                    </Link> */}
+                                </li>
+                                <li>
+                                    <a href={CookieNotice} target="_blank" style={{whiteSpace: 'nowrap'}} rel="noopener noreferrer">Cookie Notice</a>
+                                    {/* <Link to="/terms" title={"Terms Of Use"}>
+                                        Terms Of Use
+                                    </Link> */}
                                 </li>
                             </ul>
                         </div>
