@@ -1,7 +1,7 @@
 import React from "react"
 
 import mongodb from "../../static/images/backers/mongo.svg"
-import liaa from "../../static/images/backers/liaa4.jpg"
+// import liaa from "../../static/images/backers/liaa4.jpg"
 import buildit from "../../static/images/backers/buildit.svg"
 import brinc from "../../static/images/backers/brinc.svg"
 import artesian from "../../static/images/backers/artesian.svg"
@@ -10,6 +10,7 @@ import charlie from "../../static/images/backers/charlie.png"
 import hatch from "../../static/images/backers/hatch.png"
 import fulgur from "../../static/images/backers/fulgur.svg"
 import binance from "../../static/images/backers/binance.png"
+import eu from "../../static/images/backers/lv_es_color.png"
 
 const Backers = () => (
     <div className={"showcase"}>
@@ -77,10 +78,10 @@ const Backers = () => (
                 </div>
                 <div className={"col-4"}>
                     <img
-                        src={liaa}
+                        src={eu}
                         className={"partner_logo"}
-                        alt={"liaa"}
-                        style={{ maxWidth: 300 }}
+                        alt={"LIAA | EU"}
+                        // style={{ maxWidth: 300 }}
                         onClick={() =>
                             window.open(
                                 "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
