@@ -1,7 +1,7 @@
 import React from "react"
 
 import mongodb from "../../static/images/backers/mongo.svg"
-// import liaa from "../../static/images/backers/liaa4.jpg"
+import liaa from "../../static/images/backers/liaa_2020.png"
 import buildit from "../../static/images/backers/buildit.svg"
 import brinc from "../../static/images/backers/brinc.svg"
 import artesian from "../../static/images/backers/artesian.svg"
@@ -10,7 +10,7 @@ import charlie from "../../static/images/backers/charlie.png"
 import hatch from "../../static/images/backers/hatch.png"
 import fulgur from "../../static/images/backers/fulgur.svg"
 import binance from "../../static/images/backers/binance.png"
-import eu from "../../static/images/backers/lv_es_color.png"
+// import eu from "../../static/images/backers/lv_es_color.png"
 
 const Backers = () => (
     <div className={"showcase"}>
@@ -78,15 +78,10 @@ const Backers = () => (
                 </div>
                 <div className={"col-4"}>
                     <img
-                        src={eu}
+                        src={binance}
                         className={"partner_logo"}
-                        alt={"LIAA | EU"}
-                        // style={{ maxWidth: 300 }}
-                        onClick={() =>
-                            window.open(
-                                "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
-                            )
-                        }
+                        alt={"binance_fellowship"}
+                        onClick={() => window.open("https://binancex.dev/")}
                     />
                 </div>
             </div>
@@ -118,14 +113,22 @@ const Backers = () => (
                 </div>
             </div>
 
-            <div className={"row"}>
+            <div
+                className={"row"}
+                // style={{marginTop: 20}}
+             >
                 <div className={"col-4"}></div>
-                <div className={"col-4"}>
+                <div className={"col-4"} style={{justifyContent: 'center', alignItems: 'center'}}>
                     <img
-                        src={binance}
+                        src={liaa}
                         className={"partner_logo"}
-                        alt={"binance_fellowship"}
-                        onClick={() => window.open("https://binancex.dev/")}
+                        alt={"LIAA | EU"}
+                        style={{ maxWidth: 250 }}
+                        onClick={() =>
+                            window.open(
+                                "http://www.liaa.gov.lv/en/invest-latvia/start-up-ecosystem"
+                            )
+                        }
                     />
                 </div>
                 <div className={"col-4"}></div>
