@@ -88,7 +88,7 @@ const Footer = ({ logo }) => (
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={"https://medium.com/lastbitpay"}>
+                                    <a href={"https://blog.lastbit.io"}>
                                         Blog
                                     </a>
                                 </li>

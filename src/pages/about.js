@@ -50,9 +50,10 @@ const AboutPage = () => (
       /> */}
         <Values />
 
+        <Events />
+
         <Team />
 
-        <Events />
     </Layout>
 )
 

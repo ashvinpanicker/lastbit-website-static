@@ -12,7 +12,7 @@ import logo from "../../static/images/logo.png"
 // import kaili from "../../static/images/team/grayscale/kaili.png"
 
 const Team = () => (
-    <div className={"showcase"}>
+    <div className={"showcase"} style={{boxShadow: 'rgba(0, 0, 0, 0.11) 0px 8px 6px -6px'}}>
         <h5 style={{ fontSize: "24px", color: "#00204a" }}>
             We are a team of             <a
                 href="https://www.reddit.com/r/CryptoCurrency/comments/aeeipa/"
