@@ -8,6 +8,8 @@ import Subscribe from "../sections/subscribe"
 import google from "../../static/images/app/google.png"
 import apple from "../../static/images/app/apple.png"
 import landing from "../../static/images/landing.png"
+import androidBeta from "../../static/images/icons/android_beta.jpg"
+import testflight from "../../static/images/icons/testflight.png"
 
 import Sky from "../sections/sky"
 import Features from "../sections/features"
@@ -38,28 +40,59 @@ const IndexPage = () => (
                 <p className={"landing_subtitle"}>
                     Your personal lightning powered Bitcoin debit card
                 </p>
-                <div className={"app_download_btn_container"}>
-                    <img
-                        src={google}
-                        alt="playstore"
-                        className={"app_download_btn"}
-                        onClick={() =>
-                            window.open(
-                                "https://play.google.com/store/apps/details?id=com.lastbit.pay"
-                            )
-                        }
-                    />
-                    <img
-                        src={apple}
-                        alt="appstore"
-                        className={"app_download_btn"}
-                        onClick={() =>  {
+                <div className={"app_download_btns_container"}>
+                    <div className={"app_btn_container"}>
+                        <img
+                            src={google}
+                            alt="playstore"
+                            className={"app_download_btn"}
+                            onClick={() =>
+                                window.open(
+                                    "https://play.google.com/store/apps/details?id=com.lastbit.pay"
+                                )
+                            }
+                        />
+                        <p className={"beta_container"}>
+                            <img
+                                src={androidBeta}
+                                alt="beta_testnet"
+                                className={"beta_icon"}
+                                onClick={() =>
+                                    window.open(
+                                        "https://play.google.com/store/apps/details?id=com.lastbit.pay"
+                                    )
+                                }
+                            />
+                            <a href="https://play.google.com/store/apps/details?id=com.lastbit.pay">
+                                TESTNET v1.7 (Early access)
+                            </a>
+                        </p>
+                    </div>
+                    <div className={"app_btn_container"}>
+                        <img
+                            src={apple}
+                            alt="appstore"
+                            className={"app_download_btn"}
+                            onClick={() => {
                                 window.open(
                                     "https://testflight.apple.com/join/MnCPZ91i"
                                 )
-                            }
-                        }
-                    />
+                            }}
+                        />
+                        <p className={"beta_container"}>
+                            <img
+                                src={testflight}
+                                alt="testflight"
+                                className={"beta_icon"}
+                                onClick={() =>
+                                    window.open(
+                                        "https://testflight.apple.com/join/MnCPZ91i"
+                                    )
+                                }
+                            />
+                            <a href="https://testflight.apple.com/join/MnCPZ91i">Testflight Code: MnCPZ91i</a>
+                        </p>
+                    </div>
                 </div>
                 {/* <Subscribe /> */}
                 {/* <AnimatedText /> */}
@@ -86,29 +119,34 @@ const IndexPage = () => (
                 application featuring virtual debit cards
             </p>
             <div className={"row container"} style={{ paddingBottom: 60 }}>
-                <img
-                    src={google}
-                    alt={"playstore"}
-                    className={"img-responsive hover-shadow"}
-                    style={{ maxWidth: "300px", margin: 20 }}
-                    onClick={() =>
-                        window.open(
-                            "https://play.google.com/store/apps/details?id=com.lastbit.pay"
-                        )
-                    }
-                />
-                <img
-                    src={apple}
-                    alt={"appstore"}
-                    className={"img-responsive hover-shadow"}
-                    style={{ maxWidth: "300px", margin: 20 }}
-                    onClick={() => {
+                <div>
+                    <img
+                        src={google}
+                        alt={"playstore"}
+                        className={"img-responsive hover-shadow"}
+                        style={{ maxWidth: "300px", margin: 20 }}
+                        onClick={() =>
+                            window.open(
+                                "https://play.google.com/store/apps/details?id=com.lastbit.pay"
+                            )
+                        }
+                    />
+                    <p>TESTNET v1.7 (Early access)</p>
+                </div>
+                <div>
+                    <img
+                        src={apple}
+                        alt={"appstore"}
+                        className={"img-responsive hover-shadow"}
+                        style={{ maxWidth: "300px", margin: 20 }}
+                        onClick={() => {
                             window.open(
                                 "https://testflight.apple.com/join/MnCPZ91i"
                             )
-                        }
-                    }
-                />
+                        }}
+                    />
+                    <p>Testflight Code: MnCPZ91i</p>
+                </div>
             </div>
         </div>
 

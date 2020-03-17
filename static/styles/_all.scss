@@ -1083,11 +1083,15 @@ body {
     top: -90px;
 }
 
-.app_download_btn_container {
+.app_download_btns_container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-flow: wrap;
+}
+
+.app_btn_container {
+    margin-bottom: 40px;
 }
 
 .app_download_btn {
@@ -1095,4 +1099,15 @@ body {
     max-width: 500px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.beta_icon {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.beta_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
