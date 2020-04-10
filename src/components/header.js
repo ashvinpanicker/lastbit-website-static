@@ -17,6 +17,7 @@ const Header = ({ siteTitle, logo }) => (
                         About
                     </Link>
                     <a href={"https://blog.lastbit.io"}>Blog</a>
+		    <a href={"https://podcast.lastbit.io/"}>Podcast</a>
                     <a href={"https://shop.lastbit.io"}>Webshop</a>
                 </div>
 
@@ -41,6 +42,7 @@ const Header = ({ siteTitle, logo }) => (
                                     About
                                 </Link>
                                 <a href={"https://blog.lastbit.io"}>Blog</a>
+				<a href={"https://podcast.lastbit.io/"}>Podcast</a>
                                 <a href={"https://shop.lastbit.io"}>Webshop</a>
                                 <div className="primary-action">
                                     <Link to="/#subscribe" title={"lastbit"}>
