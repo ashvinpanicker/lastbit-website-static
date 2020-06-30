@@ -64,7 +64,7 @@ const IndexPage = () => (
                                 }
                             />
                             <a href="https://play.google.com/store/apps/details?id=com.lastbit.pay">
-                                TESTNET v1.7 (Early access)
+                                TESTNET v2.0
                             </a>
                         </p>
                     </div>
@@ -131,7 +131,7 @@ const IndexPage = () => (
                             )
                         }
                     />
-                    <p>TESTNET v1.7 (Early access)</p>
+                    <p>TESTNET v2.0</p>
                 </div>
                 <div>
                     <img
