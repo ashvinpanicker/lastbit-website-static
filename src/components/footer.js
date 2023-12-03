@@ -145,8 +145,9 @@ const Footer = ({ logo }) => (
                     <div className={"widget__item"}>
                         <div className={"social"}>
                             <a
-                                href="https://twitter.com/lastbitpay"
+                                href="https://twitter.com/strigahq"
                                 target={"_blank"}
+                                rel="noreferrer"
                                 title={"Twitter"}
                             >
                                 <img alt={"Twitter"} src={iconTwitter} />
@@ -154,6 +155,7 @@ const Footer = ({ logo }) => (
                             <a
                                 href="https://www.linkedin.com/company/lastbit/"
                                 target={"_blank"}
+                                rel="noreferrer"
                                 title={"LinkedIn"}
                             >
                                 <img alt={"LinkedIn"} src={iconLinkedin} />
@@ -161,6 +163,7 @@ const Footer = ({ logo }) => (
                             <a
                                 href="https://www.instagram.com/lastbit.io/"
                                 target={"_blank"}
+                                rel="noreferrer"
                                 title={"Instagram"}
                             >
                                 <img alt={"Instagram"} src={iconInstagram} />

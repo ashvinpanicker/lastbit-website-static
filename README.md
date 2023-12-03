@@ -4,8 +4,9 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  An old Gatsby website that I built for lastbit in 2019
 </h1>
+<p>This purpose of the static site was to gain traction on google by having high page speed and simple seo</p>
 
 ## 🚀 Quick start
 

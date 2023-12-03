@@ -25,7 +25,7 @@ export default class IconCard extends Component {
                     />
                     {linkedIn && (
                         <div className={"contactLinkedin"}>
-                            <a href={linkedIn} target={"_blank"} title={title}>
+                            <a href={linkedIn} target={"_blank"} rel="noreferrer" title={title}>
                                 <img
                                     alt={"LinkedIn"}
                                     src={iconLinkedin}
@@ -36,7 +36,7 @@ export default class IconCard extends Component {
                     )}
                     {email && (
                         <div className={"contactemail"}>
-                            <a href={email} target={"_blank"} title={title}>
+                            <a href={email} target={"_blank"} rel="noreferrer" title={title}>
                                 <img
                                     alt={"email"}
                                     src={iconEmail}
