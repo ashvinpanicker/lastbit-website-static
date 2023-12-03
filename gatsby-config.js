@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby_v5`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `lastbit-website-static`,
+    siteUrl: `https://www.lastbit.io`
   },
   plugins: ["gatsby-plugin-sass"]
 };
